@@ -340,26 +340,49 @@ async function sendTelegramRequest(method: string, payload: any) {
 }
 
 // Safely send messages split into chunks if length > 3800 chars (Telegram max limit 4096)
+function escapeHtml(text: string): string {
+  if (!text) return '';
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 async function sendTelegramMessageChunked(chatId: number | string, text: string, extraParams: any = {}) {
   const MAX_LEN = 3800;
   const msgText = text || ' ';
 
-  if (msgText.length <= MAX_LEN) {
+  const sendSingle = async (chunk: string, paramsExtra: any) => {
     try {
       return await sendTelegramRequest('sendMessage', {
         chat_id: chatId,
-        text: msgText,
-        parse_mode: 'Markdown',
-        ...extraParams
+        text: chunk,
+        parse_mode: 'HTML',
+        ...paramsExtra
       });
-    } catch (err: any) {
-      const cleanText = msgText.replace(/[\*\_\`]/g, '');
-      return await sendTelegramRequest('sendMessage', {
-        chat_id: chatId,
-        text: cleanText,
-        ...extraParams
-      });
+    } catch (errHtml: any) {
+      console.log(`[Telegram HTML Send Retry] ${errHtml.message}`);
+      try {
+        return await sendTelegramRequest('sendMessage', {
+          chat_id: chatId,
+          text: chunk,
+          parse_mode: 'Markdown',
+          ...paramsExtra
+        });
+      } catch (errMd: any) {
+        console.log(`[Telegram MD Send Retry] ${errMd.message}`);
+        const plainText = chunk.replace(/<[^>]*>/g, '').replace(/[\*\_\`]/g, '');
+        return await sendTelegramRequest('sendMessage', {
+          chat_id: chatId,
+          text: plainText,
+          ...paramsExtra
+        });
+      }
     }
+  };
+
+  if (msgText.length <= MAX_LEN) {
+    return await sendSingle(msgText, extraParams);
   }
 
   const chunks: string[] = [];
@@ -384,24 +407,8 @@ async function sendTelegramMessageChunked(chatId: number | string, text: string,
   for (let i = 0; i < chunks.length; i++) {
     const chunk = chunks[i];
     const isLast = (i === chunks.length - 1);
-    const params = {
-      chat_id: chatId,
-      text: chunk,
-      ...(isLast ? extraParams : {})
-    };
-
-    try {
-      lastRes = await sendTelegramRequest('sendMessage', {
-        ...params,
-        parse_mode: 'Markdown'
-      });
-    } catch (err: any) {
-      const cleanChunk = chunk.replace(/[\*\_\`]/g, '');
-      lastRes = await sendTelegramRequest('sendMessage', {
-        ...params,
-        text: cleanChunk
-      });
-    }
+    const params = isLast ? extraParams : {};
+    lastRes = await sendSingle(chunk, params);
   }
 
   return lastRes;
@@ -795,28 +802,28 @@ async function processIncomingTelegramUpdate(update: any) {
     const lowerText = rawText.toLowerCase();
 
     if (user.isBlocked) {
-      replyText = '⛔ Your account is blocked from using this bot.';
+      replyText = '⛔ <b>Your account is blocked from using this bot.</b>';
     } else if (lowerText === '/start' || lowerText.startsWith('/start ')) {
-      replyText = `👋 *Welcome to the OSINT & Info Lookup Bot!*\n\nPlease select an option below to perform a lookup:`;
+      replyText = `<b>👋 Welcome to the OSINT & Info Lookup Bot!</b>\n\nPlease select an option below to perform a lookup:`;
     } else if (lowerText === '📱 mobile' || lowerText === 'mobile' || lowerText === '/mobile') {
       userSelectedMode[user.telegramId] = 'mobile';
-      replyText = `📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., \`9876543210\`):`;
+      replyText = `📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):`;
     } else if (lowerText === '🪪 aadhaar' || lowerText === '🪪 aadhar' || lowerText === 'aadhaar' || lowerText === 'aadhar' || lowerText === '/aadhaar' || lowerText === '/adhar') {
       userSelectedMode[user.telegramId] = 'adhar';
-      replyText = `🪪 *AADHAAR Lookup Selected*\n\nPlease send the 12-digit Aadhaar Number to lookup:`;
+      replyText = `🪪 <b>AADHAAR Lookup Selected</b>\n\nPlease send the 12-digit Aadhaar Number to lookup:`;
     } else if (lowerText === '💲 upi' || lowerText === 'upi' || lowerText === '/upi') {
       userSelectedMode[user.telegramId] = 'upi';
-      replyText = `💲 *UPI ID Lookup Selected*\n\nPlease send the UPI ID to lookup (e.g., \`name@paytm\` or \`9876543210@upi\`):`;
+      replyText = `💲 <b>UPI ID Lookup Selected</b>\n\nPlease send the UPI ID to lookup (e.g., <code>name@paytm</code> or <code>9876543210@upi</code>):`;
     } else if (lowerText === '🏦 ifsc' || lowerText === 'ifsc' || lowerText === '/ifsc') {
       userSelectedMode[user.telegramId] = 'ifsc';
-      replyText = `🏦 *IFSC Code Lookup Selected*\n\nPlease send the 11-character IFSC Code to lookup (e.g., \`PUNB00024544\`):`;
+      replyText = `🏦 <b>IFSC Code Lookup Selected</b>\n\nPlease send the 11-character IFSC Code to lookup (e.g., <code>PUNB00024544</code>):`;
     } else if (lowerText === '📸 instagram' || lowerText === 'instagram' || lowerText === '/instagram') {
       userSelectedMode[user.telegramId] = 'instagram';
-      replyText = `📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., \`john_doe\`):`;
+      replyText = `📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):`;
     } else if (lowerText === '/profile' || lowerText === '/myinfo' || lowerText === '/balance' || lowerText === '/credits') {
-      replyText = `👤 *User Profile*\n\n• *Name*: ${user.firstName} ${user.lastName || ''}\n• *Username*: @${user.username || 'N/A'}\n• *Telegram ID*: \`${user.telegramId}\`\n• *Credits Balance*: ${user.credits} Credits\n• *Lookups Done*: ${user.totalLookupsPerformed}\n• *Status*: Active ✅\n• *Joined*: ${new Date(user.joinedAt).toLocaleDateString()}`;
+      replyText = `👤 <b>User Profile</b>\n\n• <b>Name</b>: ${escapeHtml(user.firstName)} ${escapeHtml(user.lastName || '')}\n• <b>Username</b>: @${escapeHtml(user.username || 'N/A')}\n• <b>Telegram ID</b>: <code>${user.telegramId}</code>\n• <b>Credits Balance</b>: ${user.credits} Credits\n• <b>Lookups Done</b>: ${user.totalLookupsPerformed}\n• <b>Status</b>: Active ✅\n• <b>Joined</b>: ${new Date(user.joinedAt).toLocaleDateString()}`;
     } else if (lowerText === '/help') {
-      replyText = `❓ *OSINT & Info Lookup Bot Help*\n\nWelcome ${user.firstName}! Available commands:\n\n• /start - Main menu & select lookup mode\n• /mobile <number> - Mobile number lookup\n• /aadhaar <number> - Aadhaar card lookup\n• /upi <id> - UPI VPA lookup\n• /ifsc <code> - Bank IFSC lookup\n• /instagram <username> - Instagram lookup\n• /profile - Check credits & account info\n\nOr click any button below and send the query!`;
+      replyText = `❓ <b>OSINT & Info Lookup Bot Help</b>\n\nWelcome ${escapeHtml(user.firstName)}! Available commands:\n\n• /start - Main menu & select lookup mode\n• /mobile &lt;number&gt; - Mobile number lookup\n• /aadhaar &lt;number&gt; - Aadhaar card lookup\n• /upi &lt;id&gt; - UPI VPA lookup\n• /ifsc &lt;code&gt; - Bank IFSC lookup\n• /instagram &lt;username&gt; - Instagram lookup\n• /profile - Check credits & account info\n\nOr click any button below and send the query!`;
     } else {
       // Direct lookup or command with argument
       let targetType = '';
@@ -859,7 +866,7 @@ async function processIncomingTelegramUpdate(update: any) {
         const resultObj = await performOsintLookup(targetType, queryTerm, store.config.apiKey);
         const jsonStr = JSON.stringify(resultObj, null, 2);
 
-        replyText = `\`\`\`json\n${jsonStr}\n\`\`\`\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*`;
+        replyText = `<pre><code>${escapeHtml(jsonStr)}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>`;
       } else if (store.config.autoReplyEnabled !== false) {
         if (store.config.autoReplyMessage && store.config.autoReplyMessage.trim()) {
           replyText = store.config.autoReplyMessage;

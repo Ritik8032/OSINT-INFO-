@@ -109,7 +109,7 @@
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734",
       "lastMessage": "```json\n{\n  \"0\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"BIHAR JIO\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": null,\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"2\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"3\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"4\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 1,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
       "lastMessageTime": "2026-08-06T12:27:32.497Z",
-      "unreadCount": 2,
+      "unreadCount": 0,
       "isOnline": true
     },
     {
@@ -145,7 +145,7 @@
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
       "lastMessage": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
       "lastMessageTime": "2026-08-06T12:26:50.906Z",
-      "unreadCount": 12,
+      "unreadCount": 0,
       "isOnline": true
     },
     {
@@ -1260,22 +1260,64 @@
   "broadcasts": [],
   "logs": [
     {
+      "id": "ijju9r7",
+      "timestamp": "2026-08-06T13:00:10.618Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop..."
+    },
+    {
+      "id": "fep3h4m",
+      "timestamp": "2026-08-06T13:00:10.615Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling."
+    },
+    {
+      "id": "lep626l",
+      "timestamp": "2026-08-06T13:00:09.829Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "jqlqfw4",
+      "timestamp": "2026-08-06T12:34:51.388Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "vwp15a7",
+      "timestamp": "2026-08-06T12:34:49.290Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "rumhkcx",
+      "timestamp": "2026-08-06T12:34:01.789Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
       "id": "vz1noao",
       "timestamp": "2026-08-06T12:32:43.801Z",
       "type": "info",
-      "message": "Started Telegram long polling loop..."
+      "message": "Started Telegram long polling loop...",
+      "details": null
     },
     {
       "id": "0jikd9a",
       "timestamp": "2026-08-06T12:32:43.799Z",
       "type": "info",
-      "message": "Cleared active Telegram webhooks for long polling."
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
     },
     {
       "id": "5wmpa6s",
       "timestamp": "2026-08-06T12:32:43.092Z",
       "type": "info",
-      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
     },
     {
       "id": "tk08v0t",
