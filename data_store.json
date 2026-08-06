@@ -1,0 +1,2663 @@
+{
+  "config": {
+    "botToken": "8964110250:AAG3yf-jWsiLsL45NXWFmZaPFqRqfjmtEC4",
+    "apiKey": "",
+    "apiUrl": "http://uersxinfo.in/api",
+    "autoStartPolling": true,
+    "welcomeMessage": "👋 Welcome to our Telegram Bot!",
+    "autoReplyEnabled": true,
+    "isPollingActive": true,
+    "botUsername": "OSINT40U_BOT",
+    "botFirstName": "OSINT(INFO)",
+    "webhookUrl": "",
+    "maintenanceMode": false,
+    "supabaseUrl": "",
+    "supabaseKey": ""
+  },
+  "users": [
+    {
+      "id": "usr-7134054734",
+      "telegramId": 7134054734,
+      "username": "PRAJAPATI_KING1",
+      "firstName": "༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐",
+      "lastName": null,
+      "languageCode": "en",
+      "isPremium": false,
+      "isBlocked": false,
+      "isWatched": false,
+      "joinedAt": "2026-08-06T12:26:51.353Z",
+      "lastActive": "Just now",
+      "credits": 99,
+      "totalLookupsPerformed": 1,
+      "referralsCount": 0,
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734"
+    },
+    {
+      "id": "usr-7478324725",
+      "telegramId": 7478324725,
+      "username": "RITIK_KUMAR_RR",
+      "firstName": "RITIK 💸💸",
+      "languageCode": "en",
+      "isPremium": false,
+      "isBlocked": false,
+      "isWatched": false,
+      "joinedAt": "2026-08-05T13:30:28.036Z",
+      "lastActive": "Just now",
+      "credits": 100,
+      "totalLookupsPerformed": 0,
+      "referralsCount": 0,
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7478324725"
+    },
+    {
+      "id": "usr-8016146653",
+      "telegramId": 8016146653,
+      "username": "Satyam_ll",
+      "firstName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+      "languageCode": "en",
+      "isPremium": false,
+      "isBlocked": false,
+      "isWatched": false,
+      "joinedAt": "2026-08-05T13:30:28.035Z",
+      "lastActive": "Just now",
+      "credits": 98,
+      "totalLookupsPerformed": 2,
+      "referralsCount": 0,
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653"
+    },
+    {
+      "id": "usr-8033702577",
+      "telegramId": 8033702577,
+      "username": "RITIK90608",
+      "firstName": "RITIK",
+      "languageCode": "en",
+      "isPremium": false,
+      "isBlocked": false,
+      "isWatched": false,
+      "joinedAt": "2026-08-05T13:30:28.034Z",
+      "lastActive": "Just now",
+      "credits": 90,
+      "totalLookupsPerformed": 10,
+      "referralsCount": 0,
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577"
+    },
+    {
+      "id": "usr-6623929989",
+      "telegramId": 6623929989,
+      "username": "Yyyyy673",
+      "firstName": "Roky",
+      "lastName": "Bhai",
+      "languageCode": "en",
+      "isPremium": false,
+      "isBlocked": false,
+      "isWatched": false,
+      "joinedAt": "2026-08-05T13:30:28.033Z",
+      "lastActive": "Just now",
+      "credits": 100,
+      "totalLookupsPerformed": 0,
+      "referralsCount": 0,
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=6623929989"
+    }
+  ],
+  "groups": [],
+  "chats": [
+    {
+      "chatId": 7134054734,
+      "id": "7134054734",
+      "type": "private",
+      "title": "༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐",
+      "username": "PRAJAPATI_KING1",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734",
+      "lastMessage": "```json\n{\n  \"0\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"BIHAR JIO\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": null,\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"2\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"3\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"4\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 1,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+      "lastMessageTime": "2026-08-06T12:27:32.497Z",
+      "unreadCount": 2,
+      "isOnline": true
+    },
+    {
+      "chatId": 7478324725,
+      "id": "7478324725",
+      "type": "private",
+      "title": "RITIK 💸💸",
+      "username": "RITIK_KUMAR_RR",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7478324725",
+      "lastMessage": "📱 MOBILE",
+      "lastMessageTime": "2026-08-05T13:30:32.271Z",
+      "unreadCount": 0,
+      "isOnline": true
+    },
+    {
+      "chatId": 8016146653,
+      "id": "8016146653",
+      "type": "private",
+      "title": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+      "username": "Satyam_ll",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+      "lastMessage": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+      "lastMessageTime": "2026-08-06T09:26:50.048Z",
+      "unreadCount": 0,
+      "isOnline": true
+    },
+    {
+      "chatId": 8033702577,
+      "id": "8033702577",
+      "type": "private",
+      "title": "RITIK",
+      "username": "RITIK90608",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+      "lastMessage": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+      "lastMessageTime": "2026-08-06T12:31:59.389Z",
+      "unreadCount": 13,
+      "isOnline": true
+    },
+    {
+      "chatId": 6623929989,
+      "id": "6623929989",
+      "type": "private",
+      "title": "Roky Bhai",
+      "username": "Yyyyy673",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=6623929989",
+      "lastMessage": "👋 *Welcome to the OSINT & Info Lookup Bot!*\n\nPlease select an option below to perform a lookup:",
+      "lastMessageTime": "2026-08-05T13:38:18.743Z",
+      "unreadCount": 0,
+      "isOnline": true
+    }
+  ],
+  "messages": {
+    "6623929989": [
+      {
+        "id": "msg-137",
+        "telegramMessageId": 137,
+        "chatId": 6623929989,
+        "sender": "user",
+        "senderName": "Roky Bhai",
+        "senderUsername": "Yyyyy673",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=6623929989",
+        "text": "/start",
+        "timestamp": "2026-08-05T13:30:28.034Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-140",
+        "telegramMessageId": 140,
+        "chatId": 6623929989,
+        "sender": "user",
+        "senderName": "Roky Bhai",
+        "senderUsername": "Yyyyy673",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=6623929989",
+        "text": "Mobile",
+        "timestamp": "2026-08-05T13:30:28.036Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-147",
+        "telegramMessageId": 147,
+        "chatId": 6623929989,
+        "sender": "user",
+        "senderName": "Roky Bhai",
+        "senderUsername": "Yyyyy673",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=6623929989",
+        "text": "/start",
+        "timestamp": "2026-08-05T13:38:18.739Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937098744",
+        "chatId": 6623929989,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "👋 *Welcome to the OSINT & Info Lookup Bot!*\n\nPlease select an option below to perform a lookup:",
+        "timestamp": "2026-08-05T13:38:18.743Z",
+        "status": "sent",
+        "telegramMessageId": 153
+      }
+    ],
+    "8033702577": [
+      {
+        "id": "msg-138",
+        "telegramMessageId": 138,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:30:28.035Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-141",
+        "telegramMessageId": 141,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:30:28.036Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-146",
+        "telegramMessageId": 146,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:38:17.761Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937097763",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-05T13:38:17.762Z",
+        "status": "sent",
+        "telegramMessageId": 152
+      },
+      {
+        "id": "msg-148",
+        "telegramMessageId": 148,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:38:19.174Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937099176",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-05T13:38:19.175Z",
+        "status": "sent",
+        "telegramMessageId": 154
+      },
+      {
+        "id": "msg-150",
+        "telegramMessageId": 150,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "/start",
+        "timestamp": "2026-08-05T13:38:20.067Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937100068",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "👋 *Welcome to the OSINT & Info Lookup Bot!*\n\nPlease select an option below to perform a lookup:",
+        "timestamp": "2026-08-05T13:38:20.067Z",
+        "status": "sent",
+        "telegramMessageId": 156
+      },
+      {
+        "id": "msg-159",
+        "telegramMessageId": 159,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:38:35.320Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937115321",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-05T13:38:35.320Z",
+        "status": "sent",
+        "telegramMessageId": 160
+      },
+      {
+        "id": "msg-161",
+        "telegramMessageId": 161,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "9060873927",
+        "timestamp": "2026-08-05T13:38:41.793Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937122813",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"0\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 27,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@UsersXinfo_admin\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-05T13:38:42.812Z",
+        "status": "sent",
+        "telegramMessageId": 162
+      },
+      {
+        "id": "msg-163",
+        "telegramMessageId": 163,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "🏦 IFSC",
+        "timestamp": "2026-08-05T13:38:48.420Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937128421",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "🏦 *IFSC Code Lookup Selected*\n\nPlease send the 11-character IFSC Code to lookup (e.g., `PUNB00024544`):",
+        "timestamp": "2026-08-05T13:38:48.420Z",
+        "status": "sent",
+        "telegramMessageId": 164
+      },
+      {
+        "id": "msg-165",
+        "telegramMessageId": 165,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "PUNB0316600",
+        "timestamp": "2026-08-05T13:38:53.875Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937134217",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"ifsc\": \"PUNB0316600\",\n  \"bank_code\": \"PUNB\",\n  \"bank_name\": \"Punjab National Bank\",\n  \"branch\": \"SAKSOHRA, DISTT. PATNA ,BIHAR\",\n  \"address\": \"BLOCK  BARH,DISTT  PATNA\",\n  \"centre\": \"SAKSOHRA ,PATNA\",\n  \"city\": \"SAKSOHRA (PATNA)\",\n  \"district\": \"SAKSOHRA ,PATNA\",\n  \"state\": \"BIHAR\",\n  \"contact\": null,\n  \"micr\": \"800024544\",\n  \"swift\": null,\n  \"neft\": true,\n  \"rtgs\": true,\n  \"imps\": true,\n  \"upi\": true,\n  \"bank_slug\": \"punjab-national-bank\",\n  \"state_slug\": \"bihar\",\n  \"city_slug\": \"saksohra-patna\",\n  \"branch_slug\": \"saksohra-distt-patna-bihar\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-05T13:38:54.216Z",
+        "status": "sent",
+        "telegramMessageId": 166
+      },
+      {
+        "id": "msg-168",
+        "telegramMessageId": 168,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:42.878Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008402880",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:42.879Z",
+        "status": "sent",
+        "telegramMessageId": 175
+      },
+      {
+        "id": "msg-169",
+        "telegramMessageId": 169,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:43.311Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008403312",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:43.311Z",
+        "status": "sent",
+        "telegramMessageId": 176
+      },
+      {
+        "id": "msg-168",
+        "telegramMessageId": 168,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:49.136Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008409138",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:49.137Z",
+        "status": "sent",
+        "telegramMessageId": 179
+      },
+      {
+        "id": "msg-169",
+        "telegramMessageId": 169,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:49.584Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008409586",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:49.585Z",
+        "status": "sent",
+        "telegramMessageId": 180
+      },
+      {
+        "id": "msg-171",
+        "telegramMessageId": 171,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:50.500Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008410501",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T09:26:50.500Z",
+        "status": "sent",
+        "telegramMessageId": 182
+      },
+      {
+        "id": "msg-172",
+        "telegramMessageId": 172,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:50.930Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008410932",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:50.931Z",
+        "status": "sent",
+        "telegramMessageId": 183
+      },
+      {
+        "id": "msg-173",
+        "telegramMessageId": 173,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:51.382Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008411383",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:51.382Z",
+        "status": "sent",
+        "telegramMessageId": 184
+      },
+      {
+        "id": "msg-193",
+        "telegramMessageId": 193,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "💲 UPI",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:40:38.529Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009238531",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "💲 *UPI ID Lookup Selected*\n\nPlease send the UPI ID to lookup (e.g., `name@paytm` or `9876543210@upi`):",
+        "timestamp": "2026-08-06T09:40:38.530Z",
+        "status": "sent",
+        "telegramMessageId": 194
+      },
+      {
+        "id": "msg-195",
+        "telegramMessageId": 195,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "9060873927@upi",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:40:47.099Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009249434",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"status\": true,\n  \"data\": {\n    \"name\": \"Ritik Raushan Kumar\",\n    \"bank\": \"UPI_BANK_JPB\",\n    \"vpa\": \"9060873927@upi\",\n    \"account_type\": \"SAVINGS\"\n  },\n  \"developer\": \"@R3XNOVA\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-06T09:40:49.433Z",
+        "status": "sent",
+        "telegramMessageId": 197
+      },
+      {
+        "id": "msg-198",
+        "telegramMessageId": 198,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:41:01.899Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009261901",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T09:41:01.900Z",
+        "status": "sent",
+        "telegramMessageId": 199
+      },
+      {
+        "id": "msg-200",
+        "telegramMessageId": 200,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:41:29.190Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009289845",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"query\": \"ritik_raushan_kumar_9\",\n  \"type\": \"MOBILE_LOOKUP\",\n  \"status\": \"SUCCESS\",\n  \"carrier\": \"JIO / AIRTEL INDIA\",\n  \"circle\": \"BIHAR & JHARKHAND\",\n  \"owner\": \"VERIFIED_RECORD\",\n  \"developer\": \"@RITIK_KUMAR_RR\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-06T09:41:29.844Z",
+        "status": "sent",
+        "telegramMessageId": 201
+      },
+      {
+        "id": "msg-214",
+        "telegramMessageId": 214,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "9199604613@upi",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:48:20.664Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009721464",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"vpa\": \"9199604613@upi\",\n  \"status\": \"SUCCESS\",\n  \"message\": \"UPI Lookup completed\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T09:48:41.463Z",
+        "status": "sent",
+        "telegramMessageId": 216
+      },
+      {
+        "id": "msg-219",
+        "telegramMessageId": 219,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:49:33.363Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009782365",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"query\": \"ritik_raushan_kumar_9\",\n  \"type\": \"MOBILE_LOOKUP\",\n  \"status\": \"SUCCESS\",\n  \"carrier\": \"JIO / AIRTEL INDIA\",\n  \"circle\": \"BIHAR & JHARKHAND\",\n  \"owner\": \"VERIFIED_RECORD\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T09:49:42.364Z",
+        "status": "sent",
+        "telegramMessageId": 221
+      },
+      {
+        "id": "msg-222",
+        "telegramMessageId": 222,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:53:09.407Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786009989410",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T09:53:09.409Z",
+        "status": "sent",
+        "telegramMessageId": 223
+      },
+      {
+        "id": "msg-224",
+        "telegramMessageId": 224,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:53:21.990Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010002278",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"http_code\": 403,\n  \"message\": \"Blocked or not found\",\n  \"raw\": \"<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\\\"no-js ie6 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\\\"no-js ie7 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\\\"no-js ie8 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en-US\\\"> <!--<![endif]-->\\n<head>\\n<title>Attention Required! | Cloudflare</title>\\n<meta charset=\\\"UTF-8\\\" />\\n<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\" />\\n<meta name=\\\"robots\\\" content=\\\"noindex, nofollow\\\" />\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\" />\\n<link rel=\\\"stylesheet\\\" id=\\\"cf_styles-css\\\" href=\\\"/cdn-cgi/styles/cf.errors.css\\\" />\\n<!--[if lt IE 9]><link rel=\\\"stylesheet\\\" id='cf_styles-ie-css' href=\\\"/cdn-cgi/styles/cf.errors.ie.css\\\" /><![endif]-->\\n<style>body{margin:0;padding:0}</style>\\n\\n\\n<!--[if gte IE 10]><!-->\\n<script>\\n  if (!navigator.cookieEnabled) {\\n    window.addEventListener('DOMContentLoaded', function () {\\n      var cookieEl = document.getElementById('cookie-alert');\\n      cookieEl.style.display = 'block';\\n    })\\n  }\\n</script>\\n<!--<![endif]-->\\n\\n</head>\\n<body>\\n  <div id=\\\"cf-wrapper\\\">\\n    <div class=\\\"cf-alert cf-alert-error cf-cookie-error\\\" id=\\\"cookie-alert\\\" data-translate=\\\"enable_cookies\\\">Please enable cookies.</div>\\n    <div id=\\\"cf-error-details\\\" class=\\\"cf-error-details-wrapper\\\">\\n      <div class=\\\"cf-wrapper cf-header cf-error-overview\\\">\\n        <h1 data-translate=\\\"block_headline\\\">Sorry, you have been blocked</h1>\\n        <h2 class=\\\"cf-subheadline\\\"><span data-translate=\\\"unable_to_access\\\">You are unable to access</span> instantusername.com</h2>\\n      </div><!-- /.header -->\\n\\n      <div class=\\\"cf-section cf-highlight\\\">\\n        <div class=\\\"cf-wrapper\\\">\\n          <div class=\\\"cf-screenshot-container cf-screenshot-full\\\">\\n            \\n              <span class=\\\"cf-no-screenshot error\\\"></span>\\n            \\n          </div>\\n        </div>\\n      </div><!-- /.captcha-container -->\\n\\n      <div class=\\\"cf-section cf-wrapper\\\">\\n        <div class=\\\"cf-columns two\\\">\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_why_headline\\\">Why have I been blocked?</h2>\\n\\n            <p data-translate=\\\"blocked_why_detail\\\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\\n          </div>\\n\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_resolve_headline\\\">What can I do to resolve this?</h2>\\n\\n            <p data-translate=\\\"blocked_resolve_detail\\\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\\n          </div>\\n        </div>\\n      </div><!-- /.section -->\\n\\n      <div class=\\\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\\\">\\n    <p class=\\\"text-13\\\">\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\">Cloudflare Ray ID: <strong class=\\\"font-semibold\\\">a26d27719f4ac8da</strong></span>\\n      <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      <span id=\\\"cf-footer-item-ip\\\" class=\\\"cf-footer-item hidden sm:block sm:mb-1\\\">\\n        Your IP:\\n        <button type=\\\"button\\\" id=\\\"cf-footer-ip-reveal\\\" class=\\\"cf-footer-ip-reveal-btn\\\">Click to reveal</button>\\n        <span class=\\\"hidden\\\" id=\\\"cf-footer-ip\\\">74.220.48.20</span>\\n        <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      </span>\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Performance &amp; security by</span> <a rel=\\\"noopener noreferrer\\\" href=\\\"https://www.cloudflare.com/5xx-error-landing\\\" id=\\\"brand_link\\\" target=\\\"_blank\\\">Cloudflare</a></span>\\n      \\n    </p>\\n    <script>(function(){function d(){var b=a.getElementById(\\\"cf-footer-item-ip\\\"),c=a.getElementById(\\\"cf-footer-ip-reveal\\\");b&&\\\"classList\\\"in b&&(b.classList.remove(\\\"hidden\\\"),c.addEventListener(\\\"click\\\",function(){c.classList.add(\\\"hidden\\\");a.getElementById(\\\"cf-footer-ip\\\").classList.remove(\\\"hidden\\\")}))}var a=document;document.addEventListener&&a.addEventListener(\\\"DOMContentLoaded\\\",d)})();</script>\\n  </div><!-- /.error-footer -->\\n\\n    </div><!-- /#cf-error-details -->\\n  </div><!-- /#cf-wrapper -->\\n\\n  <script>\\n    window._cf_translation = {};\\n    \\n    \\n  </script>\\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\\\"window.__CF$cv$params={r:'a26d27719f4ac8da',t:'MTc4NjAxMDAwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\\\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\\n</html>\",\n  \"status\": \"error\",\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"note\": \"If the check fails or an issue occurs, please try again after some time.\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T09:53:22.277Z",
+        "status": "failed"
+      },
+      {
+        "id": "msg-225",
+        "telegramMessageId": 225,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "💲 UPI",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:53:35.341Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010015344",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "💲 *UPI ID Lookup Selected*\n\nPlease send the UPI ID to lookup (e.g., `name@paytm` or `9876543210@upi`):",
+        "timestamp": "2026-08-06T09:53:35.343Z",
+        "status": "sent",
+        "telegramMessageId": 226
+      },
+      {
+        "id": "msg-227",
+        "telegramMessageId": 227,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:53:37.984Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010017986",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T09:53:37.985Z",
+        "status": "sent",
+        "telegramMessageId": 228
+      },
+      {
+        "id": "msg-229",
+        "telegramMessageId": 229,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:53:40.608Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010021459",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"http_code\": 403,\n  \"message\": \"Blocked or not found\",\n  \"raw\": \"<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\\\"no-js ie6 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\\\"no-js ie7 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\\\"no-js ie8 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en-US\\\"> <!--<![endif]-->\\n<head>\\n<title>Attention Required! | Cloudflare</title>\\n<meta charset=\\\"UTF-8\\\" />\\n<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\" />\\n<meta name=\\\"robots\\\" content=\\\"noindex, nofollow\\\" />\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\" />\\n<link rel=\\\"stylesheet\\\" id=\\\"cf_styles-css\\\" href=\\\"/cdn-cgi/styles/cf.errors.css\\\" />\\n<!--[if lt IE 9]><link rel=\\\"stylesheet\\\" id='cf_styles-ie-css' href=\\\"/cdn-cgi/styles/cf.errors.ie.css\\\" /><![endif]-->\\n<style>body{margin:0;padding:0}</style>\\n\\n\\n<!--[if gte IE 10]><!-->\\n<script>\\n  if (!navigator.cookieEnabled) {\\n    window.addEventListener('DOMContentLoaded', function () {\\n      var cookieEl = document.getElementById('cookie-alert');\\n      cookieEl.style.display = 'block';\\n    })\\n  }\\n</script>\\n<!--<![endif]-->\\n\\n</head>\\n<body>\\n  <div id=\\\"cf-wrapper\\\">\\n    <div class=\\\"cf-alert cf-alert-error cf-cookie-error\\\" id=\\\"cookie-alert\\\" data-translate=\\\"enable_cookies\\\">Please enable cookies.</div>\\n    <div id=\\\"cf-error-details\\\" class=\\\"cf-error-details-wrapper\\\">\\n      <div class=\\\"cf-wrapper cf-header cf-error-overview\\\">\\n        <h1 data-translate=\\\"block_headline\\\">Sorry, you have been blocked</h1>\\n        <h2 class=\\\"cf-subheadline\\\"><span data-translate=\\\"unable_to_access\\\">You are unable to access</span> instantusername.com</h2>\\n      </div><!-- /.header -->\\n\\n      <div class=\\\"cf-section cf-highlight\\\">\\n        <div class=\\\"cf-wrapper\\\">\\n          <div class=\\\"cf-screenshot-container cf-screenshot-full\\\">\\n            \\n              <span class=\\\"cf-no-screenshot error\\\"></span>\\n            \\n          </div>\\n        </div>\\n      </div><!-- /.captcha-container -->\\n\\n      <div class=\\\"cf-section cf-wrapper\\\">\\n        <div class=\\\"cf-columns two\\\">\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_why_headline\\\">Why have I been blocked?</h2>\\n\\n            <p data-translate=\\\"blocked_why_detail\\\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\\n          </div>\\n\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_resolve_headline\\\">What can I do to resolve this?</h2>\\n\\n            <p data-translate=\\\"blocked_resolve_detail\\\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\\n          </div>\\n        </div>\\n      </div><!-- /.section -->\\n\\n      <div class=\\\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\\\">\\n    <p class=\\\"text-13\\\">\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\">Cloudflare Ray ID: <strong class=\\\"font-semibold\\\">a26d27e96c91ca84</strong></span>\\n      <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      <span id=\\\"cf-footer-item-ip\\\" class=\\\"cf-footer-item hidden sm:block sm:mb-1\\\">\\n        Your IP:\\n        <button type=\\\"button\\\" id=\\\"cf-footer-ip-reveal\\\" class=\\\"cf-footer-ip-reveal-btn\\\">Click to reveal</button>\\n        <span class=\\\"hidden\\\" id=\\\"cf-footer-ip\\\">74.220.48.20</span>\\n        <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      </span>\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Performance &amp; security by</span> <a rel=\\\"noopener noreferrer\\\" href=\\\"https://www.cloudflare.com/5xx-error-landing\\\" id=\\\"brand_link\\\" target=\\\"_blank\\\">Cloudflare</a></span>\\n      \\n    </p>\\n    <script>(function(){function d(){var b=a.getElementById(\\\"cf-footer-item-ip\\\"),c=a.getElementById(\\\"cf-footer-ip-reveal\\\");b&&\\\"classList\\\"in b&&(b.classList.remove(\\\"hidden\\\"),c.addEventListener(\\\"click\\\",function(){c.classList.add(\\\"hidden\\\");a.getElementById(\\\"cf-footer-ip\\\").classList.remove(\\\"hidden\\\")}))}var a=document;document.addEventListener&&a.addEventListener(\\\"DOMContentLoaded\\\",d)})();</script>\\n  </div><!-- /.error-footer -->\\n\\n    </div><!-- /#cf-error-details -->\\n  </div><!-- /#cf-wrapper -->\\n\\n  <script>\\n    window._cf_translation = {};\\n    \\n    \\n  </script>\\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\\\"window.__CF$cv$params={r:'a26d27e96c91ca84',t:'MTc4NjAxMDAyMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\\\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\\n</html>\",\n  \"status\": \"error\",\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"note\": \"If the check fails or an issue occurs, please try again after some time.\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T09:53:41.458Z",
+        "status": "failed"
+      },
+      {
+        "id": "msg-230",
+        "telegramMessageId": 230,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:58:14.189Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010294192",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T09:58:14.191Z",
+        "status": "sent",
+        "telegramMessageId": 231
+      },
+      {
+        "id": "msg-232",
+        "telegramMessageId": 232,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:58:19.659Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010300271",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"http_code\": 403,\n  \"message\": \"Blocked or not found\",\n  \"raw\": \"<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\\\"no-js ie6 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\\\"no-js ie7 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\\\"no-js ie8 oldie\\\" lang=\\\"en-US\\\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en-US\\\"> <!--<![endif]-->\\n<head>\\n<title>Attention Required! | Cloudflare</title>\\n<meta charset=\\\"UTF-8\\\" />\\n<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\" />\\n<meta name=\\\"robots\\\" content=\\\"noindex, nofollow\\\" />\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\" />\\n<link rel=\\\"stylesheet\\\" id=\\\"cf_styles-css\\\" href=\\\"/cdn-cgi/styles/cf.errors.css\\\" />\\n<!--[if lt IE 9]><link rel=\\\"stylesheet\\\" id='cf_styles-ie-css' href=\\\"/cdn-cgi/styles/cf.errors.ie.css\\\" /><![endif]-->\\n<style>body{margin:0;padding:0}</style>\\n\\n\\n<!--[if gte IE 10]><!-->\\n<script>\\n  if (!navigator.cookieEnabled) {\\n    window.addEventListener('DOMContentLoaded', function () {\\n      var cookieEl = document.getElementById('cookie-alert');\\n      cookieEl.style.display = 'block';\\n    })\\n  }\\n</script>\\n<!--<![endif]-->\\n\\n</head>\\n<body>\\n  <div id=\\\"cf-wrapper\\\">\\n    <div class=\\\"cf-alert cf-alert-error cf-cookie-error\\\" id=\\\"cookie-alert\\\" data-translate=\\\"enable_cookies\\\">Please enable cookies.</div>\\n    <div id=\\\"cf-error-details\\\" class=\\\"cf-error-details-wrapper\\\">\\n      <div class=\\\"cf-wrapper cf-header cf-error-overview\\\">\\n        <h1 data-translate=\\\"block_headline\\\">Sorry, you have been blocked</h1>\\n        <h2 class=\\\"cf-subheadline\\\"><span data-translate=\\\"unable_to_access\\\">You are unable to access</span> instantusername.com</h2>\\n      </div><!-- /.header -->\\n\\n      <div class=\\\"cf-section cf-highlight\\\">\\n        <div class=\\\"cf-wrapper\\\">\\n          <div class=\\\"cf-screenshot-container cf-screenshot-full\\\">\\n            \\n              <span class=\\\"cf-no-screenshot error\\\"></span>\\n            \\n          </div>\\n        </div>\\n      </div><!-- /.captcha-container -->\\n\\n      <div class=\\\"cf-section cf-wrapper\\\">\\n        <div class=\\\"cf-columns two\\\">\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_why_headline\\\">Why have I been blocked?</h2>\\n\\n            <p data-translate=\\\"blocked_why_detail\\\">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\\n          </div>\\n\\n          <div class=\\\"cf-column\\\">\\n            <h2 data-translate=\\\"blocked_resolve_headline\\\">What can I do to resolve this?</h2>\\n\\n            <p data-translate=\\\"blocked_resolve_detail\\\">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\\n          </div>\\n        </div>\\n      </div><!-- /.section -->\\n\\n      <div class=\\\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\\\">\\n    <p class=\\\"text-13\\\">\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\">Cloudflare Ray ID: <strong class=\\\"font-semibold\\\">a26d2eb7fc9efb74</strong></span>\\n      <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      <span id=\\\"cf-footer-item-ip\\\" class=\\\"cf-footer-item hidden sm:block sm:mb-1\\\">\\n        Your IP:\\n        <button type=\\\"button\\\" id=\\\"cf-footer-ip-reveal\\\" class=\\\"cf-footer-ip-reveal-btn\\\">Click to reveal</button>\\n        <span class=\\\"hidden\\\" id=\\\"cf-footer-ip\\\">74.220.48.20</span>\\n        <span class=\\\"cf-footer-separator sm:hidden\\\">&bull;</span>\\n      </span>\\n      <span class=\\\"cf-footer-item sm:block sm:mb-1\\\"><span>Performance &amp; security by</span> <a rel=\\\"noopener noreferrer\\\" href=\\\"https://www.cloudflare.com/5xx-error-landing\\\" id=\\\"brand_link\\\" target=\\\"_blank\\\">Cloudflare</a></span>\\n      \\n    </p>\\n    <script>(function(){function d(){var b=a.getElementById(\\\"cf-footer-item-ip\\\"),c=a.getElementById(\\\"cf-footer-ip-reveal\\\");b&&\\\"classList\\\"in b&&(b.classList.remove(\\\"hidden\\\"),c.addEventListener(\\\"click\\\",function(){c.classList.add(\\\"hidden\\\");a.getElementById(\\\"cf-footer-ip\\\").classList.remove(\\\"hidden\\\")}))}var a=document;document.addEventListener&&a.addEventListener(\\\"DOMContentLoaded\\\",d)})();</script>\\n  </div><!-- /.error-footer -->\\n\\n    </div><!-- /#cf-error-details -->\\n  </div><!-- /#cf-wrapper -->\\n\\n  <script>\\n    window._cf_translation = {};\\n    \\n    \\n  </script>\\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\\\"window.__CF$cv$params={r:'a26d2eb7fc9efb74',t:'MTc4NjAxMDMwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\\\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\\n</html>\",\n  \"status\": \"error\",\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"note\": \"If the check fails or an issue occurs, please try again after some time.\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T09:58:20.270Z",
+        "status": "sent",
+        "telegramMessageId": 234
+      },
+      {
+        "id": "msg-235",
+        "telegramMessageId": 235,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T10:06:48.776Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010808779",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T10:06:48.778Z",
+        "status": "sent",
+        "telegramMessageId": 236
+      },
+      {
+        "id": "msg-238",
+        "telegramMessageId": 238,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T10:07:05.554Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786010826211",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"status\": \"error\",\n  \"message\": \"There is an issue processing your request. Please try again after some time.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T10:07:06.210Z",
+        "status": "sent",
+        "telegramMessageId": 239
+      },
+      {
+        "id": "msg-240",
+        "telegramMessageId": 240,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T12:26:50.904Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786019210907",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T12:26:50.906Z",
+        "status": "sent",
+        "telegramMessageId": 242
+      },
+      {
+        "id": "msg-246",
+        "telegramMessageId": 246,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-06T12:31:59.387Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786019519390",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T12:31:59.389Z",
+        "status": "sent",
+        "telegramMessageId": 247
+      }
+    ],
+    "8016146653": [
+      {
+        "id": "msg-139",
+        "telegramMessageId": 139,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:30:28.035Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-142",
+        "telegramMessageId": 142,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "💲 UPI",
+        "timestamp": "2026-08-05T13:30:28.036Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-149",
+        "telegramMessageId": 149,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:38:19.626Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937099627",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-05T13:38:19.626Z",
+        "status": "sent",
+        "telegramMessageId": 155
+      },
+      {
+        "id": "msg-151",
+        "telegramMessageId": 151,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "Hello ritik chutiya",
+        "timestamp": "2026-08-05T13:38:20.308Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-151",
+        "telegramMessageId": 151,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "Hello ritik chutiya",
+        "timestamp": "2026-08-05T13:38:20.510Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1785937101310",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"query\": \"Hello ritik chutiya\",\n  \"type\": \"MOBILE_LOOKUP\",\n  \"status\": \"SUCCESS\",\n  \"carrier\": \"JIO / AIRTEL INDIA\",\n  \"circle\": \"BIHAR & JHARKHAND\",\n  \"owner\": \"VERIFIED_RECORD\",\n  \"developer\": \"@RITIK_KUMAR_RR\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-05T13:38:21.309Z",
+        "status": "sent",
+        "telegramMessageId": 157
+      },
+      {
+        "id": "msg-1785937101504",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"query\": \"Hello ritik chutiya\",\n  \"type\": \"MOBILE_LOOKUP\",\n  \"status\": \"SUCCESS\",\n  \"carrier\": \"JIO / AIRTEL INDIA\",\n  \"circle\": \"BIHAR & JHARKHAND\",\n  \"owner\": \"VERIFIED_RECORD\",\n  \"developer\": \"@RITIK_KUMAR_RR\"\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @RITIK_KUMAR_RR*",
+        "timestamp": "2026-08-05T13:38:21.503Z",
+        "status": "sent",
+        "telegramMessageId": 158
+      },
+      {
+        "id": "msg-167",
+        "telegramMessageId": 167,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:38:59.311Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-167",
+        "telegramMessageId": 167,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:42.363Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008402364",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:42.363Z",
+        "status": "sent",
+        "telegramMessageId": 174
+      },
+      {
+        "id": "msg-170",
+        "telegramMessageId": 170,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:43.765Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008403767",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:43.766Z",
+        "status": "sending"
+      },
+      {
+        "id": "msg-167",
+        "telegramMessageId": 167,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:48.708Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008408710",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:48.709Z",
+        "status": "sent",
+        "telegramMessageId": 178
+      },
+      {
+        "id": "msg-170",
+        "telegramMessageId": 170,
+        "chatId": 8016146653,
+        "sender": "user",
+        "senderName": "~𝗦𝗮𝘁𝘆𝗮𝗺",
+        "senderUsername": "Satyam_ll",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8016146653",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T09:26:50.047Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786008410049",
+        "chatId": 8016146653,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T09:26:50.048Z",
+        "status": "sent",
+        "telegramMessageId": 181
+      }
+    ],
+    "7478324725": [
+      {
+        "id": "msg-143",
+        "telegramMessageId": 143,
+        "chatId": 7478324725,
+        "sender": "user",
+        "senderName": "RITIK 💸💸",
+        "senderUsername": "RITIK_KUMAR_RR",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=7478324725",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:30:28.036Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-144",
+        "telegramMessageId": 144,
+        "chatId": 7478324725,
+        "sender": "user",
+        "senderName": "RITIK 💸💸",
+        "senderUsername": "RITIK_KUMAR_RR",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=7478324725",
+        "text": "🪪 AADHAAR",
+        "timestamp": "2026-08-05T13:30:28.036Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-145",
+        "telegramMessageId": 145,
+        "chatId": 7478324725,
+        "sender": "user",
+        "senderName": "RITIK 💸💸",
+        "senderUsername": "RITIK_KUMAR_RR",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=7478324725",
+        "text": "📱 MOBILE",
+        "timestamp": "2026-08-05T13:30:32.271Z",
+        "status": "delivered"
+      }
+    ],
+    "7134054734": [
+      {
+        "id": "msg-241",
+        "telegramMessageId": 241,
+        "chatId": 7134054734,
+        "sender": "user",
+        "senderName": "༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐",
+        "senderUsername": "PRAJAPATI_KING1",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T12:26:51.354Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786019211356",
+        "chatId": 7134054734,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T12:26:51.356Z",
+        "status": "sent",
+        "telegramMessageId": 243
+      },
+      {
+        "id": "msg-244",
+        "telegramMessageId": 244,
+        "chatId": 7134054734,
+        "sender": "user",
+        "senderName": "༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐",
+        "senderUsername": "PRAJAPATI_KING1",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734",
+        "text": "9798630209",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T12:27:31.046Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786019252498",
+        "chatId": 7134054734,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "```json\n{\n  \"0\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"BIHAR JIO\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": null,\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"2\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"3\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"4\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 1,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
+        "timestamp": "2026-08-06T12:27:32.497Z",
+        "status": "sent",
+        "telegramMessageId": 245
+      }
+    ]
+  },
+  "broadcasts": [],
+  "logs": [
+    {
+      "id": "0vfuwsi",
+      "timestamp": "2026-08-06T12:32:00.287Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "dff2z5q",
+      "timestamp": "2026-08-06T12:30:51.851Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop..."
+    },
+    {
+      "id": "m3fi6o9",
+      "timestamp": "2026-08-06T12:30:51.849Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling."
+    },
+    {
+      "id": "hlgdvjw",
+      "timestamp": "2026-08-06T12:30:51.073Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "rgxf174",
+      "timestamp": "2026-08-06T12:30:40.405Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "gnh9b8u",
+      "timestamp": "2026-08-06T12:30:40.403Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "rnj5wyr",
+      "timestamp": "2026-08-06T12:30:39.669Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "jsjpm1j",
+      "timestamp": "2026-08-06T12:27:32.928Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐ (7134054734)",
+      "details": null
+    },
+    {
+      "id": "dornwn8",
+      "timestamp": "2026-08-06T12:26:51.794Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐ (7134054734)",
+      "details": null
+    },
+    {
+      "id": "mxl8wis",
+      "timestamp": "2026-08-06T12:26:51.353Z",
+      "type": "bot_event",
+      "message": "New Telegram User registered: ༆𝑷𝑹𝑨𝑱𝑨𝑷𝑻𝑰࿐ (@PRAJAPATI_KING1)",
+      "details": null
+    },
+    {
+      "id": "tm8lfap",
+      "timestamp": "2026-08-06T12:26:51.350Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "fprbsic",
+      "timestamp": "2026-08-06T12:26:50.659Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "8pb9mze",
+      "timestamp": "2026-08-06T12:26:50.657Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "bztun2l",
+      "timestamp": "2026-08-06T12:26:49.872Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "9ldtlfm",
+      "timestamp": "2026-08-06T10:11:00.911Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "z63mc8k",
+      "timestamp": "2026-08-06T10:10:59.311Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "20ku34u",
+      "timestamp": "2026-08-06T10:10:13.213Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "sw75nmf",
+      "timestamp": "2026-08-06T10:09:27.036Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "6kus8x2",
+      "timestamp": "2026-08-06T10:09:27.034Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "7ep8svb",
+      "timestamp": "2026-08-06T10:09:26.319Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "oa68l40",
+      "timestamp": "2026-08-06T10:07:06.653Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "s695w7e",
+      "timestamp": "2026-08-06T10:06:49.667Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "jvw4qcv",
+      "timestamp": "2026-08-06T10:00:58.020Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "vzomo0f",
+      "timestamp": "2026-08-06T10:00:58.018Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "3v1bacy",
+      "timestamp": "2026-08-06T10:00:57.269Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "s8g28t2",
+      "timestamp": "2026-08-06T09:58:22.100Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "7sk2dg8",
+      "timestamp": "2026-08-06T09:58:15.062Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "mact8h3",
+      "timestamp": "2026-08-06T09:55:22.065Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "yqaqpks",
+      "timestamp": "2026-08-06T09:55:22.063Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "dxhfcgm",
+      "timestamp": "2026-08-06T09:55:21.265Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "dqh0v62",
+      "timestamp": "2026-08-06T09:55:16.539Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "rkkty2u",
+      "timestamp": "2026-08-06T09:53:41.918Z",
+      "type": "error",
+      "message": "Failed to deliver Telegram auto-reply to 8033702577: Bad Request: message is too long",
+      "details": null
+    },
+    {
+      "id": "jh4a1pw",
+      "timestamp": "2026-08-06T09:53:38.399Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "3qzjbfb",
+      "timestamp": "2026-08-06T09:53:36.213Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ks4xppa",
+      "timestamp": "2026-08-06T09:53:23.241Z",
+      "type": "error",
+      "message": "Failed to deliver Telegram auto-reply to 8033702577: Bad Request: message is too long",
+      "details": null
+    },
+    {
+      "id": "jil3ah0",
+      "timestamp": "2026-08-06T09:53:10.344Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ocd7lx1",
+      "timestamp": "2026-08-06T09:51:20.068Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "ne0mvnf",
+      "timestamp": "2026-08-06T09:51:20.067Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "yoapv8y",
+      "timestamp": "2026-08-06T09:51:19.343Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "rnjhr6h",
+      "timestamp": "2026-08-06T09:49:46.364Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "dl58tdg",
+      "timestamp": "2026-08-06T09:49:03.663Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "2s49ujz",
+      "timestamp": "2026-08-06T09:47:19.964Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "ea75okz",
+      "timestamp": "2026-08-06T09:47:19.364Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "yi21nsb",
+      "timestamp": "2026-08-06T09:46:39.163Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "0jan4f1",
+      "timestamp": "2026-08-06T09:45:50.908Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "zbm14b9",
+      "timestamp": "2026-08-06T09:45:50.907Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "fira7kg",
+      "timestamp": "2026-08-06T09:45:49.932Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "sc3dzti",
+      "timestamp": "2026-08-06T09:41:30.271Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "zbnuj9j",
+      "timestamp": "2026-08-06T09:41:28.946Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "agtuky6",
+      "timestamp": "2026-08-06T09:41:28.945Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "8nlyeta",
+      "timestamp": "2026-08-06T09:41:28.180Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "toasapn",
+      "timestamp": "2026-08-06T09:41:16.052Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "lfc6e1h",
+      "timestamp": "2026-08-06T09:41:02.875Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "djcgow0",
+      "timestamp": "2026-08-06T09:40:49.857Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "heseacu",
+      "timestamp": "2026-08-06T09:40:39.430Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "isk42mm",
+      "timestamp": "2026-08-06T09:40:15.138Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "j8kxn3r",
+      "timestamp": "2026-08-06T09:40:15.137Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "ok44jqf",
+      "timestamp": "2026-08-06T09:40:14.334Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "bmmwbuc",
+      "timestamp": "2026-08-06T09:40:06.052Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "u042utl",
+      "timestamp": "2026-08-06T09:38:49.455Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "hgtnptw",
+      "timestamp": "2026-08-06T09:38:41.052Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "puzyr9c",
+      "timestamp": "2026-08-06T09:38:33.051Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "gpxsbg7",
+      "timestamp": "2026-08-06T09:38:24.657Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "p8wi0ua",
+      "timestamp": "2026-08-06T09:38:16.757Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "z4roo7i",
+      "timestamp": "2026-08-06T09:38:08.866Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "283ujkd",
+      "timestamp": "2026-08-06T09:38:05.429Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "envdeny",
+      "timestamp": "2026-08-06T09:38:05.427Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "cjpwfju",
+      "timestamp": "2026-08-06T09:38:04.647Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "eov024w",
+      "timestamp": "2026-08-06T09:37:59.007Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "tc444zc",
+      "timestamp": "2026-08-06T09:37:52.506Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "p5hm4ae",
+      "timestamp": "2026-08-06T09:37:43.307Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "jr7uixb",
+      "timestamp": "2026-08-06T09:37:34.496Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "jr91rbx",
+      "timestamp": "2026-08-06T09:37:26.498Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "l9q79o7",
+      "timestamp": "2026-08-06T09:37:17.596Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "lg8ojv4",
+      "timestamp": "2026-08-06T09:37:09.686Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "wecqq46",
+      "timestamp": "2026-08-06T09:37:01.442Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "s1eqnie",
+      "timestamp": "2026-08-06T09:36:55.207Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "197dii7",
+      "timestamp": "2026-08-06T09:36:46.507Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "32wsbw9",
+      "timestamp": "2026-08-06T09:36:37.716Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "71p3zha",
+      "timestamp": "2026-08-06T09:36:29.707Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "68xyvr2",
+      "timestamp": "2026-08-06T09:36:21.106Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "mipyh11",
+      "timestamp": "2026-08-06T09:36:13.094Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "xbmnbsw",
+      "timestamp": "2026-08-06T09:36:04.907Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "bwtjy94",
+      "timestamp": "2026-08-06T09:35:56.207Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "9ctj3ue",
+      "timestamp": "2026-08-06T09:35:47.605Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "qt6w4vi",
+      "timestamp": "2026-08-06T09:35:36.908Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "5w803bl",
+      "timestamp": "2026-08-06T09:35:28.408Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "wjthlii",
+      "timestamp": "2026-08-06T09:35:20.307Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "nrnsw9m",
+      "timestamp": "2026-08-06T09:35:11.700Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "uqoo0f3",
+      "timestamp": "2026-08-06T09:35:03.407Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "ox6ckit",
+      "timestamp": "2026-08-06T09:34:54.874Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "uqrb8l7",
+      "timestamp": "2026-08-06T09:34:46.506Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "v80hhl7",
+      "timestamp": "2026-08-06T09:34:38.493Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "b36v5cs",
+      "timestamp": "2026-08-06T09:34:30.507Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "zsyki4y",
+      "timestamp": "2026-08-06T09:34:21.889Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "ik2875s",
+      "timestamp": "2026-08-06T09:34:13.407Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "iqgkbz8",
+      "timestamp": "2026-08-06T09:34:03.907Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "cfb22c2",
+      "timestamp": "2026-08-06T09:33:56.506Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "lwr3ver",
+      "timestamp": "2026-08-06T09:33:46.707Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "v96nidm",
+      "timestamp": "2026-08-06T09:33:35.819Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "w0t1rvm",
+      "timestamp": "2026-08-06T09:33:28.807Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "s0onivv",
+      "timestamp": "2026-08-06T09:33:19.806Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "b7j2m06",
+      "timestamp": "2026-08-06T09:33:10.206Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "1amkv0k",
+      "timestamp": "2026-08-06T09:32:59.706Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "jn4j1ep",
+      "timestamp": "2026-08-06T09:32:50.889Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "0l3po6k",
+      "timestamp": "2026-08-06T09:32:41.607Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "mf6rz7q",
+      "timestamp": "2026-08-06T09:32:30.907Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "iocogi4",
+      "timestamp": "2026-08-06T09:32:21.407Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "f3ilt2e",
+      "timestamp": "2026-08-06T09:32:12.693Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "mifco9y",
+      "timestamp": "2026-08-06T09:32:03.106Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "dpm3okw",
+      "timestamp": "2026-08-06T09:31:53.993Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "i464g4y",
+      "timestamp": "2026-08-06T09:31:44.307Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "59st9g2",
+      "timestamp": "2026-08-06T09:31:34.508Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "egkyxvv",
+      "timestamp": "2026-08-06T09:31:25.306Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "dve3d93",
+      "timestamp": "2026-08-06T09:31:15.008Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "xvteizi",
+      "timestamp": "2026-08-06T09:31:01.807Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "eb86any",
+      "timestamp": "2026-08-06T09:30:45.306Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "zfep4in",
+      "timestamp": "2026-08-06T09:30:24.406Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "944mmau",
+      "timestamp": "2026-08-06T09:29:54.806Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "lty0tqu",
+      "timestamp": "2026-08-06T09:29:11.606Z",
+      "type": "error",
+      "message": "Telegram Polling error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running",
+      "details": null
+    },
+    {
+      "id": "7u0zk5i",
+      "timestamp": "2026-08-06T09:28:31.608Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "cye00he",
+      "timestamp": "2026-08-06T09:28:31.406Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "w3y5kyo",
+      "timestamp": "2026-08-06T09:27:45.806Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "lvxtrs1",
+      "timestamp": "2026-08-06T09:26:51.914Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "k0frr55",
+      "timestamp": "2026-08-06T09:26:51.380Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "0fhnanq",
+      "timestamp": "2026-08-06T09:26:50.929Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "u2c3rm6",
+      "timestamp": "2026-08-06T09:26:50.499Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)",
+      "details": null
+    },
+    {
+      "id": "kl663a9",
+      "timestamp": "2026-08-06T09:26:50.046Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "60zb2n5",
+      "timestamp": "2026-08-06T09:26:49.583Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "7z9jc2j",
+      "timestamp": "2026-08-06T09:26:49.136Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)",
+      "details": null
+    },
+    {
+      "id": "logsaz9",
+      "timestamp": "2026-08-06T09:26:48.469Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "jgkj8oa",
+      "timestamp": "2026-08-06T09:26:48.468Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "frikepv",
+      "timestamp": "2026-08-06T09:26:47.761Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "8hpciol",
+      "timestamp": "2026-08-06T09:26:43.764Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "qb819ih",
+      "timestamp": "2026-08-06T09:26:43.309Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ua87s9i",
+      "timestamp": "2026-08-06T09:26:42.877Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)",
+      "details": null
+    },
+    {
+      "id": "1nafgh3",
+      "timestamp": "2026-08-06T09:26:42.126Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "1hpjqjl",
+      "timestamp": "2026-08-06T09:26:42.125Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "yfde1xl",
+      "timestamp": "2026-08-06T09:26:41.404Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "u2kz664",
+      "timestamp": "2026-08-06T09:23:12.551Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "dajat54",
+      "timestamp": "2026-08-06T09:23:11.823Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token",
+      "details": null
+    },
+    {
+      "id": "6jydg9x",
+      "timestamp": "2026-08-06T09:20:50.260Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "lab8o6k",
+      "timestamp": "2026-08-06T09:20:44.198Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "oh6jcwq",
+      "timestamp": "2026-08-06T09:16:54.014Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "0m3sp8i",
+      "timestamp": "2026-08-05T13:44:31.490Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "r9o5iwx",
+      "timestamp": "2026-08-05T13:39:03.762Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "9v5w2ps",
+      "timestamp": "2026-08-05T13:39:01.727Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized.",
+      "details": null
+    },
+    {
+      "id": "89tmkht",
+      "timestamp": "2026-08-05T13:38:54.672Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "njyts2y",
+      "timestamp": "2026-08-05T13:38:49.359Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "pv34rp5",
+      "timestamp": "2026-08-05T13:38:43.244Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "gxf1r07",
+      "timestamp": "2026-08-05T13:38:36.274Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "2j99gyl",
+      "timestamp": "2026-08-05T13:38:24.259Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "tioid74",
+      "timestamp": "2026-08-05T13:38:24.011Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token"
+    },
+    {
+      "id": "mk76l39",
+      "timestamp": "2026-08-05T13:38:21.971Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)"
+    },
+    {
+      "id": "ebe5x8n",
+      "timestamp": "2026-08-05T13:38:21.736Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)"
+    },
+    {
+      "id": "4dvekd5",
+      "timestamp": "2026-08-05T13:38:20.509Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "ouomug0",
+      "timestamp": "2026-08-05T13:38:20.065Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from ~𝗦𝗮𝘁𝘆𝗮𝗺 (8016146653)"
+    },
+    {
+      "id": "bg9r73l",
+      "timestamp": "2026-08-05T13:38:19.625Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "oard598",
+      "timestamp": "2026-08-05T13:38:19.174Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from Roky (6623929989)"
+    },
+    {
+      "id": "5cavii5",
+      "timestamp": "2026-08-05T13:38:18.738Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)"
+    },
+    {
+      "id": "vwe3om7",
+      "timestamp": "2026-08-05T13:38:14.072Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop..."
+    },
+    {
+      "id": "v57253j",
+      "timestamp": "2026-08-05T13:37:58.378Z",
+      "type": "info",
+      "message": "Stopped Telegram long polling loop."
+    },
+    {
+      "id": "0hwqxna",
+      "timestamp": "2026-08-05T13:37:48.125Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "lau57xw",
+      "timestamp": "2026-08-05T13:37:47.886Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token"
+    },
+    {
+      "id": "bsb44ls",
+      "timestamp": "2026-08-05T13:37:46.530Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "bwbv1cx",
+      "timestamp": "2026-08-05T13:37:45.764Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token"
+    },
+    {
+      "id": "ii6kxt3",
+      "timestamp": "2026-08-05T13:37:40.634Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "h36rjan",
+      "timestamp": "2026-08-05T13:37:39.939Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token"
+    },
+    {
+      "id": "7uppkyk",
+      "timestamp": "2026-08-05T13:35:33.933Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "n1qxq4v",
+      "timestamp": "2026-08-05T13:35:32.779Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    },
+    {
+      "id": "qorhen7",
+      "timestamp": "2026-08-05T13:35:27.855Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "gcqkda3",
+      "timestamp": "2026-08-05T13:35:26.802Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    },
+    {
+      "id": "n4manlc",
+      "timestamp": "2026-08-05T13:30:52.587Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "onm1frg",
+      "timestamp": "2026-08-05T13:30:51.763Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    },
+    {
+      "id": "e77983v",
+      "timestamp": "2026-08-05T13:30:48.432Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "lm8mrpv",
+      "timestamp": "2026-08-05T13:30:47.682Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    },
+    {
+      "id": "kltd887",
+      "timestamp": "2026-08-05T13:30:28.036Z",
+      "type": "bot_event",
+      "message": "New Telegram User registered: RITIK 💸💸 (@RITIK_KUMAR_RR)"
+    },
+    {
+      "id": "7djclbo",
+      "timestamp": "2026-08-05T13:30:28.035Z",
+      "type": "bot_event",
+      "message": "New Telegram User registered: ~𝗦𝗮𝘁𝘆𝗮𝗺 (@Satyam_ll)"
+    },
+    {
+      "id": "v28q3kj",
+      "timestamp": "2026-08-05T13:30:28.034Z",
+      "type": "bot_event",
+      "message": "New Telegram User registered: RITIK (@RITIK90608)"
+    },
+    {
+      "id": "u7l6m8y",
+      "timestamp": "2026-08-05T13:30:28.033Z",
+      "type": "bot_event",
+      "message": "New Telegram User registered: Roky (@Yyyyy673)"
+    },
+    {
+      "id": "mzu8fch",
+      "timestamp": "2026-08-05T13:30:24.330Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop..."
+    },
+    {
+      "id": "8uw777r",
+      "timestamp": "2026-08-05T13:29:45.299Z",
+      "type": "info",
+      "message": "Verified Bot token identity: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "4u52ntt",
+      "timestamp": "2026-08-05T13:29:44.583Z",
+      "type": "admin",
+      "message": "Admin updated system settings and Telegram Bot Token"
+    },
+    {
+      "id": "zjj60us",
+      "timestamp": "2026-08-05T13:10:44.300Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    },
+    {
+      "id": "5vssdgm",
+      "timestamp": "2026-08-05T13:10:37.117Z",
+      "type": "info",
+      "message": "Telegram Bot Admin System initialized."
+    }
+  ],
+  "permissions": [
+    {
+      "id": "p1",
+      "key": "mobile_lookup",
+      "name": "Mobile Number Lookup",
+      "description": "Query carrier and region details for numbers.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin",
+        "VIP",
+        "Free"
+      ],
+      "maxDailyQuota": 50
+    },
+    {
+      "id": "p2",
+      "key": "adhar_lookup",
+      "name": "Aadhaar Identity Lookup",
+      "description": "Verify Aadhaar demographic records.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin",
+        "VIP"
+      ],
+      "maxDailyQuota": 20
+    },
+    {
+      "id": "p3",
+      "key": "upi_lookup",
+      "name": "UPI VPA Verification",
+      "description": "Fetch banking name associated with VPA handle.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin",
+        "VIP",
+        "Free"
+      ],
+      "maxDailyQuota": 100
+    },
+    {
+      "id": "p4",
+      "key": "ifsc_lookup",
+      "name": "IFSC Bank Branch Lookup",
+      "description": "Retrieve bank name, branch, address and MICR.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin",
+        "VIP",
+        "Free"
+      ],
+      "maxDailyQuota": 200
+    },
+    {
+      "id": "p5",
+      "key": "instagram_lookup",
+      "name": "Instagram Account Lookup",
+      "description": "Fetch public Instagram profile & metadata.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin",
+        "VIP"
+      ],
+      "maxDailyQuota": 30
+    },
+    {
+      "id": "p6",
+      "key": "broadcast_engine",
+      "name": "Mass Broadcast Dispatcher",
+      "description": "Send formatted messages to all users & groups.",
+      "enabled": true,
+      "allowedRoles": [
+        "Admin"
+      ],
+      "maxDailyQuota": 10000
+    }
+  ],
+  "apiKeys": [],
+  "plans": [
+    {
+      "id": "pl1",
+      "name": "Free Tier",
+      "priceINR": 0,
+      "dailyCredits": 10,
+      "maxGroups": 1,
+      "allowedLookupTypes": [
+        "mobile",
+        "upi",
+        "ifsc"
+      ],
+      "supportRichMessages": false
+    },
+    {
+      "id": "pl2",
+      "name": "PRO Pass",
+      "priceINR": 499,
+      "dailyCredits": 200,
+      "maxGroups": 5,
+      "allowedLookupTypes": [
+        "mobile",
+        "adhar",
+        "upi",
+        "ifsc",
+        "instagram"
+      ],
+      "supportRichMessages": true,
+      "isPopular": true
+    },
+    {
+      "id": "pl3",
+      "name": "Enterprise Agency",
+      "priceINR": 1999,
+      "dailyCredits": 2000,
+      "maxGroups": 50,
+      "allowedLookupTypes": [
+        "mobile",
+        "adhar",
+        "upi",
+        "ifsc",
+        "instagram",
+        "vehicle",
+        "pan"
+      ],
+      "supportRichMessages": true
+    }
+  ]
+}
