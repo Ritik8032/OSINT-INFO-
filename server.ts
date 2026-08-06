@@ -157,6 +157,9 @@ interface DataStore {
   permissions: any[];
   apiKeys: any[];
   plans: any[];
+  lastUpdateId?: number;
+  processedUpdateIds?: number[];
+  processedMessageKeys?: string[];
 }
 
 // Default initial permissions & plan config templates
@@ -197,7 +200,10 @@ function loadStore(): DataStore {
         logs: parsed.logs || [],
         permissions: parsed.permissions || defaultPermissions,
         apiKeys: parsed.apiKeys || [],
-        plans: parsed.plans || defaultPlans
+        plans: parsed.plans || defaultPlans,
+        lastUpdateId: parsed.lastUpdateId || 0,
+        processedUpdateIds: parsed.processedUpdateIds || [],
+        processedMessageKeys: parsed.processedMessageKeys || []
       };
     }
   } catch (err) {
@@ -417,10 +423,10 @@ async function sendTelegramMessageChunked(chatId: number | string, text: string,
 // Long Polling State & Deduplication Sets
 let pollingInterval: NodeJS.Timeout | null = null;
 let pollingTimeoutId: NodeJS.Timeout | null = null;
-let lastUpdateId = 0;
+let lastUpdateId = store.lastUpdateId || 0;
 let isPollingLoopRunning = false;
-const processedUpdateIds = new Set<number>();
-const processedMessageKeys = new Set<string>();
+const inFlightUpdateIds = new Set<number>();
+const inFlightMessageKeys = new Set<string>();
 
 function scheduleNextPolling(delayMs: number = 200) {
   if (pollingTimeoutId) {
@@ -456,7 +462,10 @@ async function performOsintLookup(type: string, term: string, key?: string) {
   let method = 'GET';
   let body: any = null;
   let headers: Record<string, string> = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    'Cache-Control': 'no-cache, no-store, must-revalidate',
+    'Pragma': 'no-cache',
+    'Expires': '0'
   };
 
   if (type === 'adhar' || type === 'aadhaar') {
@@ -489,6 +498,7 @@ async function performOsintLookup(type: string, term: string, key?: string) {
         method,
         signal: controller.signal,
         headers,
+        cache: 'no-store'
       };
       if (body) {
         fetchOptions.body = body;
@@ -623,17 +633,23 @@ async function performOsintLookup(type: string, term: string, key?: string) {
 async function processIncomingTelegramUpdate(update: any) {
   if (!update) return;
 
+  if (!store.processedUpdateIds) store.processedUpdateIds = [];
+  if (!store.processedMessageKeys) store.processedMessageKeys = [];
+
   // Deduplicate by update_id to prevent double responses
-  if (update.update_id) {
-    if (processedUpdateIds.has(update.update_id)) {
-      console.log(`[DEDUPE] Ignoring duplicate update_id: ${update.update_id}`);
+  const updateId = update.update_id;
+  if (updateId) {
+    if (inFlightUpdateIds.has(updateId) || store.processedUpdateIds.includes(updateId)) {
+      console.log(`[DEDUPE] Ignoring duplicate update_id: ${updateId}`);
       return;
     }
-    processedUpdateIds.add(update.update_id);
-    if (processedUpdateIds.size > 10000) {
-      const first = processedUpdateIds.values().next().value;
-      if (first !== undefined) processedUpdateIds.delete(first);
+    inFlightUpdateIds.add(updateId);
+    store.processedUpdateIds.push(updateId);
+    if (store.processedUpdateIds.length > 2000) {
+      store.processedUpdateIds = store.processedUpdateIds.slice(-2000);
     }
+    store.lastUpdateId = Math.max(store.lastUpdateId || 0, updateId);
+    lastUpdateId = Math.max(lastUpdateId, updateId);
   }
 
   let msg = update.message || update.edited_message || update.channel_post;
@@ -647,21 +663,27 @@ async function processIncomingTelegramUpdate(update: any) {
     }
   }
 
-  if (!msg) return;
+  if (!msg) {
+    if (updateId) inFlightUpdateIds.delete(updateId);
+    return;
+  }
 
   // Deduplicate by message key to prevent duplicate processing
   const msgKey = `${msg.chat?.id}_${msg.message_id}_${isCallback ? (update.callback_query?.id || '') : ''}`;
-  if (msg.message_id && processedMessageKeys.has(msgKey)) {
-    console.log(`[DEDUPE] Ignoring duplicate messageKey: ${msgKey}`);
-    return;
-  }
   if (msg.message_id) {
-    processedMessageKeys.add(msgKey);
-    if (processedMessageKeys.size > 10000) {
-      const first = processedMessageKeys.values().next().value;
-      if (first !== undefined) processedMessageKeys.delete(first);
+    if (inFlightMessageKeys.has(msgKey) || store.processedMessageKeys.includes(msgKey)) {
+      console.log(`[DEDUPE] Ignoring duplicate messageKey: ${msgKey}`);
+      if (updateId) inFlightUpdateIds.delete(updateId);
+      return;
+    }
+    inFlightMessageKeys.add(msgKey);
+    store.processedMessageKeys.push(msgKey);
+    if (store.processedMessageKeys.length > 2000) {
+      store.processedMessageKeys = store.processedMessageKeys.slice(-2000);
     }
   }
+
+  try {
 
   if (isCallback && update.callback_query?.id) {
     sendTelegramRequest('answerCallbackQuery', { callback_query_id: update.callback_query.id }).catch(() => {});
@@ -911,6 +933,10 @@ async function processIncomingTelegramUpdate(update: any) {
       saveStore();
     }
   }
+  } finally {
+    if (updateId) inFlightUpdateIds.delete(updateId);
+    if (msg?.message_id) inFlightMessageKeys.delete(msgKey);
+  }
 }
 
 async function runLongPolling() {
@@ -922,8 +948,9 @@ async function runLongPolling() {
   }
 
   try {
+    const currentOffset = Math.max(lastUpdateId, store.lastUpdateId || 0) + 1;
     const updates = await sendTelegramRequest('getUpdates', {
-      offset: lastUpdateId + 1,
+      offset: currentOffset,
       timeout: 10,
     });
 
@@ -1563,11 +1590,12 @@ async function startServer() {
 
   // Webhook receiver for Telegram Webhooks
   app.post("/api/webhook/telegram", (req, res) => {
-    try {
-      processIncomingTelegramUpdate(req.body);
-      res.json({ ok: true });
-    } catch (err: any) {
-      res.status(500).json({ ok: false, error: err.message });
+    // Immediately respond 200 OK so Telegram never retries the update
+    res.json({ ok: true });
+    if (req.body) {
+      processIncomingTelegramUpdate(req.body).catch((err: any) => {
+        console.error("[Webhook Error]", err.message);
+      });
     }
   });
 
