@@ -205,7 +205,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         </div>
       </div>
 
-      {/* 24/7 Vercel Deployment & Telegram Webhook Controller */}
+      {/* 24/7 Vercel, Render & Netlify Deployment & Telegram Webhook Controller */}
       <div className="bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 rounded-2xl p-5 border border-slate-800 text-white shadow-md space-y-5">
         <div className="flex items-center justify-between border-b border-slate-800 pb-3">
           <div className="flex items-center space-x-2.5">
@@ -214,11 +214,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             </div>
             <div>
               <h3 className="font-bold text-sm text-white flex items-center space-x-2">
-                <span>Vercel & 24/7 Bot Online Deployment</span>
+                <span>Vercel / Render / Netlify 24/7 Deployment</span>
                 <span className="px-2 py-0.5 bg-emerald-500/20 text-emerald-400 text-[10px] rounded-full border border-emerald-500/30 font-semibold">24/7 Active</span>
               </h3>
               <p className="text-xs text-slate-400 mt-0.5">
-                Instant Vercel serverless integration & Webhook controller for 100% 24/7 uptime without stopping.
+                Multi-cloud support (Vercel, Render Web Service & Netlify Functions) with Webhook & Uptime Controller.
               </p>
             </div>
           </div>
@@ -304,7 +304,11 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             {window.location.origin}/api/ping
           </div>
           <p className="text-[11px] text-slate-400 leading-relaxed">
-            💡 <strong>Vercel 24/7 Tip:</strong> Your project includes <code>vercel.json</code> with built-in Vercel Cron pinging <code>/api/ping</code> every 5 minutes. You can also add this ping link to free ping services like <strong>Cron-Job.org</strong> or <strong>UptimeRobot</strong> to ensure your bot never sleeps!
+            💡 <strong>Multi-Cloud Deployment Tip:</strong>
+            <br />• <strong>Vercel:</strong> Uses <code>vercel.json</code> serverless functions & automated 5-min cron ping.
+            <br />• <strong>Render:</strong> Configured with <code>render.yaml</code> for Node Web Service (supports Long Polling & Webhooks).
+            <br />• <strong>Netlify:</strong> Configured with <code>netlify.toml</code> & serverless function at <code>/api/*</code>.
+            <br />Use free ping tools like <strong>Cron-Job.org</strong> or <strong>UptimeRobot</strong> targeting <code>/api/ping</code> to keep your bot 100% active 24/7!
           </p>
         </div>
       </div>

@@ -144,8 +144,8 @@
       "username": "RITIK90608",
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
       "lastMessage": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
-      "lastMessageTime": "2026-08-06T12:31:59.389Z",
-      "unreadCount": 13,
+      "lastMessageTime": "2026-08-06T12:26:50.906Z",
+      "unreadCount": 12,
       "isOnline": true
     },
     {
@@ -961,28 +961,6 @@
         "timestamp": "2026-08-06T12:26:50.906Z",
         "status": "sent",
         "telegramMessageId": 242
-      },
-      {
-        "id": "msg-246",
-        "telegramMessageId": 246,
-        "chatId": 8033702577,
-        "sender": "user",
-        "senderName": "RITIK",
-        "senderUsername": "RITIK90608",
-        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-        "text": "📱 MOBILE",
-        "timestamp": "2026-08-06T12:31:59.387Z",
-        "status": "delivered"
-      },
-      {
-        "id": "msg-1786019519390",
-        "chatId": 8033702577,
-        "sender": "bot",
-        "senderName": "OSINT(INFO)",
-        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
-        "timestamp": "2026-08-06T12:31:59.389Z",
-        "status": "sent",
-        "telegramMessageId": 247
       }
     ],
     "8016146653": [
@@ -1282,28 +1260,64 @@
   "broadcasts": [],
   "logs": [
     {
-      "id": "0vfuwsi",
-      "timestamp": "2026-08-06T12:32:00.287Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
+      "id": "vz1noao",
+      "timestamp": "2026-08-06T12:32:43.801Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop..."
+    },
+    {
+      "id": "0jikd9a",
+      "timestamp": "2026-08-06T12:32:43.799Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling."
+    },
+    {
+      "id": "5wmpa6s",
+      "timestamp": "2026-08-06T12:32:43.092Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+    },
+    {
+      "id": "tk08v0t",
+      "timestamp": "2026-08-06T12:31:34.364Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "n8jq8n0",
+      "timestamp": "2026-08-06T12:31:32.964Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "nwugf5p",
+      "timestamp": "2026-08-06T12:31:30.779Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
     },
     {
       "id": "dff2z5q",
       "timestamp": "2026-08-06T12:30:51.851Z",
       "type": "info",
-      "message": "Started Telegram long polling loop..."
+      "message": "Started Telegram long polling loop...",
+      "details": null
     },
     {
       "id": "m3fi6o9",
       "timestamp": "2026-08-06T12:30:51.849Z",
       "type": "info",
-      "message": "Cleared active Telegram webhooks for long polling."
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
     },
     {
       "id": "hlgdvjw",
       "timestamp": "2026-08-06T12:30:51.073Z",
       "type": "info",
-      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
     },
     {
       "id": "rgxf174",
