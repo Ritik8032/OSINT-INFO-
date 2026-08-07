@@ -163,6 +163,29 @@ interface DataStore {
 }
 
 // Default initial permissions & plan config templates
+const DEFAULT_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8964110250:AAG3yf-jWsiLsL45NXWFmZaPFqRqfjmtEC4";
+const DEFAULT_API_KEY = process.env.LOOKUP_API_KEY || "ksidkf";
+const DEFAULT_API_URL = process.env.LOOKUP_API_URL || "http://uersxinfo.in/api";
+
+function ensureConfigDefaults(rawConfig?: Partial<Config>): Config {
+  const cfg = rawConfig || {};
+  return {
+    botToken: (cfg.botToken && cfg.botToken.trim().length > 0) ? cfg.botToken.trim() : DEFAULT_BOT_TOKEN,
+    apiKey: (cfg.apiKey && cfg.apiKey.trim().length > 0) ? cfg.apiKey.trim() : DEFAULT_API_KEY,
+    apiUrl: (cfg.apiUrl && cfg.apiUrl.trim().length > 0) ? cfg.apiUrl.trim() : DEFAULT_API_URL,
+    autoStartPolling: true,
+    welcomeMessage: cfg.welcomeMessage || "👋 Welcome to the OSINT & Info Lookup Bot!\n\nPlease select an option below to perform a lookup:",
+    autoReplyEnabled: cfg.autoReplyEnabled ?? true,
+    isPollingActive: true,
+    botUsername: cfg.botUsername,
+    botFirstName: cfg.botFirstName,
+    webhookUrl: cfg.webhookUrl || "",
+    maintenanceMode: cfg.maintenanceMode ?? false,
+    supabaseUrl: cfg.supabaseUrl || "",
+    supabaseKey: cfg.supabaseKey || ""
+  };
+}
+
 const defaultPermissions = [
   { id: "p1", key: "mobile_lookup", name: "Mobile Number Lookup", description: "Query carrier and region details for numbers.", enabled: true, allowedRoles: ["Admin", "VIP", "Free"], maxDailyQuota: 50 },
   { id: "p2", key: "adhar_lookup", name: "Aadhaar Identity Lookup", description: "Verify Aadhaar demographic records.", enabled: true, allowedRoles: ["Admin", "VIP"], maxDailyQuota: 20 },
@@ -184,14 +207,7 @@ function loadStore(): DataStore {
       const raw = fs.readFileSync(STORE_PATH, "utf-8");
       const parsed = JSON.parse(raw);
       return {
-        config: parsed.config || {
-          botToken: process.env.TELEGRAM_BOT_TOKEN || "",
-          apiKey: process.env.LOOKUP_API_KEY || "",
-          apiUrl: process.env.LOOKUP_API_URL || "http://uersxinfo.in/api",
-          autoStartPolling: false,
-          welcomeMessage: "👋 Welcome to our Telegram Bot!",
-          isPollingActive: false,
-        },
+        config: ensureConfigDefaults(parsed.config),
         users: parsed.users || [],
         groups: parsed.groups || [],
         chats: parsed.chats || [],
@@ -211,15 +227,7 @@ function loadStore(): DataStore {
   }
 
   return {
-    config: {
-      botToken: process.env.TELEGRAM_BOT_TOKEN || "",
-      apiKey: process.env.LOOKUP_API_KEY || "ksidkf",
-      apiUrl: process.env.LOOKUP_API_URL || "http://uersxinfo.in/api",
-      autoStartPolling: true,
-      welcomeMessage: "👋 Welcome to the OSINT & Info Lookup Bot!\n\nPlease select an option below to perform a lookup:",
-      autoReplyEnabled: true,
-      isPollingActive: true,
-    },
+    config: ensureConfigDefaults({}),
     users: [],
     groups: [],
     chats: [],
@@ -232,7 +240,7 @@ function loadStore(): DataStore {
   };
 }
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://Ritik:Ritik906087@tdm.uwkxmdo.mongodb.net/TDM?retryWrites=true&w=majority";
+const MONGO_URI = process.env.MONGO_URI || process.env.DATABASE_URL || "mongodb+srv://Ritik:Ritik906087@tdm.uwkxmdo.mongodb.net/TDM?retryWrites=true&w=majority";
 
 interface ITdmStoreData {
   key: string;
@@ -263,10 +271,10 @@ async function connectMongoDB() {
         store = {
           ...store,
           ...mongoStore,
-          config: {
+          config: ensureConfigDefaults({
             ...store.config,
             ...(mongoStore.config || {})
-          }
+          })
         };
         console.log("📥 Loaded all bot data, users & logs from MongoDB Atlas!");
         saveStoreLocal();
@@ -1449,14 +1457,16 @@ async function startServer() {
 
   app.post("/api/admin/settings/save", (req, res) => {
     const { botToken, apiKey, apiUrl, welcomeMessage, webhookUrl, maintenanceMode, supabaseUrl, supabaseKey } = req.body;
-    if (botToken !== undefined) store.config.botToken = botToken.trim();
-    if (apiKey !== undefined) store.config.apiKey = apiKey.trim();
-    if (apiUrl !== undefined) store.config.apiUrl = apiUrl.trim();
+    if (botToken !== undefined) store.config.botToken = botToken.trim() || DEFAULT_BOT_TOKEN;
+    if (apiKey !== undefined) store.config.apiKey = apiKey.trim() || DEFAULT_API_KEY;
+    if (apiUrl !== undefined) store.config.apiUrl = apiUrl.trim() || DEFAULT_API_URL;
     if (welcomeMessage !== undefined) store.config.welcomeMessage = welcomeMessage;
     if (webhookUrl !== undefined) store.config.webhookUrl = webhookUrl;
     if (maintenanceMode !== undefined) store.config.maintenanceMode = maintenanceMode;
     if (supabaseUrl !== undefined) store.config.supabaseUrl = supabaseUrl;
     if (supabaseKey !== undefined) store.config.supabaseKey = supabaseKey;
+
+    store.config = ensureConfigDefaults(store.config);
 
     addLog("admin", "Admin updated system settings and Telegram Bot Token");
 
@@ -1615,20 +1625,21 @@ async function startServer() {
   // Connect to MongoDB Atlas
   await connectMongoDB();
 
-  // Attempt initial getMe and auto-start polling if token is set
-  if (store.config.botToken) {
-    sendTelegramRequest('getMe', {})
-      .then((info) => {
-        store.config.botUsername = info.username;
-        store.config.botFirstName = info.first_name;
-        addLog('info', `Authenticated Telegram Bot: @${info.username} (${info.first_name})`);
-        startPollingLoop();
-      })
-      .catch((err) => {
-        addLog('error', `Initial Telegram Bot Token check error: ${err.message}`);
-        startPollingLoop();
-      });
-  }
+  // Ensure internal default credentials and settings are active and start polling loop
+  store.config = ensureConfigDefaults(store.config);
+  saveStore();
+
+  sendTelegramRequest('getMe', {})
+    .then((info) => {
+      store.config.botUsername = info.username;
+      store.config.botFirstName = info.first_name;
+      addLog('info', `Authenticated Telegram Bot: @${info.username} (${info.first_name})`);
+      startPollingLoop();
+    })
+    .catch((err) => {
+      addLog('error', `Initial Telegram Bot Token check error: ${err.message}`);
+      startPollingLoop();
+    });
 
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {

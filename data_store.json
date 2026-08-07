@@ -1,7 +1,7 @@
 {
   "config": {
     "botToken": "8964110250:AAG3yf-jWsiLsL45NXWFmZaPFqRqfjmtEC4",
-    "apiKey": "",
+    "apiKey": "ksidkf",
     "apiUrl": "http://uersxinfo.in/api",
     "autoStartPolling": true,
     "welcomeMessage": "👋 Welcome to our Telegram Bot!",
@@ -75,8 +75,8 @@
       "isWatched": false,
       "joinedAt": "2026-08-05T13:30:28.034Z",
       "lastActive": "Just now",
-      "credits": 85,
-      "totalLookupsPerformed": 15,
+      "credits": 77,
+      "totalLookupsPerformed": 23,
       "referralsCount": 0,
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577"
     },
@@ -109,7 +109,7 @@
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=7134054734",
       "lastMessage": "```json\n{\n  \"0\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"BIHAR JIO\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": null,\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"2\": {\n    \"NAME\": \"Malo Devi\",\n    \"fname\": \"Radho Bediya\",\n    \"ADDRESS\": \"W/O  Radho Bediya!! Hendevelli!NA!Sagatoli!Hindebili Ormanjhi Ranchi!NA!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9798630209\",\n    \"alt\": \"8084616868\",\n    \"id\": \"791890595712\",\n    \"email\": null\n  },\n  \"3\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"4\": {\n    \"NAME\": \"Anita Devi\",\n    \"fname\": \"raj kumar mahto\",\n    \"ADDRESS\": \"! 00!mandro!!hendebilli!Ranchi!Ranchi!Jharkhand!835219\",\n    \"circle\": \"JIO BHR&JHR\",\n    \"MOBILE\": \"9304511519\",\n    \"alt\": \"9798630209\",\n    \"id\": \"720545060173\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 1,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}\n```\n\n🔥 *Powered By @OSINT40U_BOT OSINT*\n🧑‍💻 *Developer: @ritik_raushan_kumar_9*",
       "lastMessageTime": "2026-08-06T12:27:32.497Z",
-      "unreadCount": 0,
+      "unreadCount": 2,
       "isOnline": true
     },
     {
@@ -143,9 +143,9 @@
       "title": "RITIK",
       "username": "RITIK90608",
       "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-      "lastMessage": "<pre><code>{\n  \"status\": false,\n  \"message\": \"No Data Found. Cookie expired or Invalid UPI ID.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-      "lastMessageTime": "2026-08-06T13:19:35.283Z",
-      "unreadCount": 11,
+      "lastMessage": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+      "lastMessageTime": "2026-08-07T04:00:58.018Z",
+      "unreadCount": 0,
       "isOnline": true
     },
     {
@@ -971,18 +971,21 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "📸 INSTAGRAM",
-        "timestamp": "2026-08-06T13:14:39.474Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:14:36.400Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022079477",
+        "id": "msg-1786022076792",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):",
-        "timestamp": "2026-08-06T13:14:39.476Z",
+        "text": "📸 *INSTAGRAM Lookup Selected*\n\nPlease send the Instagram Username to lookup (e.g., `john_doe`):",
+        "timestamp": "2026-08-06T13:14:36.791Z",
         "status": "sent",
-        "telegramMessageId": 252
+        "telegramMessageId": 253
       },
       {
         "id": "msg-249",
@@ -993,18 +996,21 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "📱 MOBILE",
-        "timestamp": "2026-08-06T13:14:39.983Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:14:42.700Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022079985",
+        "id": "msg-1786022083401",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
-        "timestamp": "2026-08-06T13:14:39.984Z",
+        "text": "📱 *MOBILE Lookup Selected*\n\nPlease send the 10-digit Mobile Number to lookup (e.g., `9876543210`):",
+        "timestamp": "2026-08-06T13:14:43.400Z",
         "status": "sent",
-        "telegramMessageId": 254
+        "telegramMessageId": 256
       },
       {
         "id": "msg-250",
@@ -1015,40 +1021,21 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "🪪 AADHAAR",
-        "timestamp": "2026-08-06T13:14:40.438Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:14:56.799Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022080440",
+        "id": "msg-1786022097499",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "🪪 <b>AADHAAR Lookup Selected</b>\n\nPlease send the 12-digit Aadhaar Number to lookup:",
-        "timestamp": "2026-08-06T13:14:40.439Z",
+        "text": "🪪 *AADHAAR Lookup Selected*\n\nPlease send the 12-digit Aadhaar Number to lookup:",
+        "timestamp": "2026-08-06T13:14:57.498Z",
         "status": "sent",
-        "telegramMessageId": 255
-      },
-      {
-        "id": "msg-258",
-        "telegramMessageId": 258,
-        "chatId": 8033702577,
-        "sender": "user",
-        "senderName": "RITIK",
-        "senderUsername": "RITIK90608",
-        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-        "text": "📱 MOBILE",
-        "timestamp": "2026-08-06T13:17:55.718Z",
-        "status": "delivered"
-      },
-      {
-        "id": "msg-1786022275721",
-        "chatId": 8033702577,
-        "sender": "bot",
-        "senderName": "OSINT(INFO)",
-        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
-        "timestamp": "2026-08-06T13:17:55.720Z",
-        "status": "sent",
-        "telegramMessageId": 259
+        "telegramMessageId": 257
       },
       {
         "id": "msg-260",
@@ -1059,18 +1046,21 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "7870873927",
-        "timestamp": "2026-08-06T13:18:02.117Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:18:04.312Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022284081",
+        "id": "msg-1786022299213",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "<pre><code>{\n  \"error\": \"HTTP Error: 502\",\n  \"key_details\": {\n    \"used_today\": 2,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-        "timestamp": "2026-08-06T13:18:04.080Z",
+        "text": "<pre><code>{\n  \"error\": \"HTTP Error: 502\",\n  \"key_details\": {\n    \"used_today\": 3,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:18:19.212Z",
         "status": "sent",
-        "telegramMessageId": 261
+        "telegramMessageId": 262
       },
       {
         "id": "msg-263",
@@ -1081,18 +1071,21 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "9060873927",
-        "timestamp": "2026-08-06T13:18:48.276Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:18:49.753Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022329372",
+        "id": "msg-1786022334013",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "<pre><code>{\n  \"0\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 4,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-        "timestamp": "2026-08-06T13:18:49.371Z",
+        "text": "<pre><code>{\n  \"0\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Guddu Kumar Yadav\",\n    \"fname\": \"Binda Yadav\",\n    \"ADDRESS\": \"C/O Binda Yadav!!!bangal khand!!Sasamusa!Gopalganj!Bihar!841505\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9060873927\",\n    \"alt\": null,\n    \"id\": null,\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 5,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:18:54.012Z",
         "status": "sent",
-        "telegramMessageId": 264
+        "telegramMessageId": 265
       },
       {
         "id": "msg-266",
@@ -1103,106 +1096,671 @@
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "ritik_raushan_kumar_9",
-        "timestamp": "2026-08-06T13:19:07.903Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:19:09.213Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022348557",
+        "id": "msg-1786022369514",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
         "text": "<pre><code>{\n  \"success\": false,\n  \"error\": \"Mobile must be 10 digits (Current: 1 digits)\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-        "timestamp": "2026-08-06T13:19:08.556Z",
+        "timestamp": "2026-08-06T13:19:29.513Z",
         "status": "sent",
-        "telegramMessageId": 267
+        "telegramMessageId": 274
       },
       {
-        "id": "msg-268",
-        "telegramMessageId": 268,
+        "id": "msg-277",
+        "telegramMessageId": 277,
         "chatId": 8033702577,
         "sender": "user",
         "senderName": "RITIK",
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-        "text": "🏦 IFSC",
-        "timestamp": "2026-08-06T13:19:13.023Z",
+        "text": "🪪 AADHAAR",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:27:33.752Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022353025",
+        "id": "msg-1786022853755",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "🏦 <b>IFSC Code Lookup Selected</b>\n\nPlease send the 11-character IFSC Code to lookup (e.g., <code>PUNB00024544</code>):",
-        "timestamp": "2026-08-06T13:19:13.024Z",
+        "text": "🪪 <b>AADHAAR Lookup Selected</b>\n\nPlease send the 12-digit Aadhaar Number to lookup:",
+        "timestamp": "2026-08-06T13:27:33.754Z",
         "status": "sent",
-        "telegramMessageId": 269
+        "telegramMessageId": 278
       },
       {
-        "id": "msg-270",
-        "telegramMessageId": 270,
+        "id": "msg-279",
+        "telegramMessageId": 279,
         "chatId": 8033702577,
         "sender": "user",
         "senderName": "RITIK",
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-        "text": "SBIN0003063",
-        "timestamp": "2026-08-06T13:19:17.374Z",
+        "text": "386897788933",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:27:43.977Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022357733",
+        "id": "msg-1786022865034",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
-        "text": "<pre><code>{\n  \"ifsc\": \"SBIN0003063\",\n  \"bank_code\": \"SBIN\",\n  \"bank_name\": \"State Bank of India\",\n  \"branch\": \"ADB BIHARSHARIF\",\n  \"address\": \"DIST  NALANDA, BIHAR 803101\",\n  \"centre\": \"BIHAR SHARIF\",\n  \"city\": \"NALANDA\",\n  \"district\": \"BIHAR SHARIF\",\n  \"state\": \"BIHAR\",\n  \"contact\": null,\n  \"micr\": \"803002004\",\n  \"swift\": null,\n  \"neft\": true,\n  \"rtgs\": true,\n  \"imps\": true,\n  \"upi\": true,\n  \"bank_slug\": \"state-bank-of-india\",\n  \"state_slug\": \"bihar\",\n  \"city_slug\": \"nalanda\",\n  \"branch_slug\": \"adb-biharsharif\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-        "timestamp": "2026-08-06T13:19:17.732Z",
+        "text": "<pre><code>{\n  \"0\": {\n    \"NAME\": \" Rajesh Kumar \",\n    \"fname\": \" Ramji Singh \",\n    \"ADDRESS\": \" Nauranga!Tajnipur!tample!Nalanda Tajnipur!Nalanda!Patna!Bihar!803213 \",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9540734338\",\n    \"alt\": null,\n    \"id\": \"386897788933\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \"Rajesh  Kumar\",\n    \"fname\": \"Ramji  Singh\",\n    \"ADDRESS\": \"S/O Ramji Singh!Nauranga Tajnipur!!!!Nalanda!Bihar!803213\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"8809863570\",\n    \"alt\": null,\n    \"id\": \"386897788933\",\n    \"email\": null\n  },\n  \"2\": {\n    \"NAME\": \" Rajesh Kumar \",\n    \"fname\": \" Ramji Singh \",\n    \"ADDRESS\": \" Nauranga!Tajnipur!tample!Nalanda Tajnipur!Nalanda!Patna!Bihar!803213 \",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9540734338\",\n    \"alt\": null,\n    \"id\": \"386897788933\",\n    \"email\": null\n  },\n  \"3\": {\n    \"NAME\": \"Rajesh  Kumar\",\n    \"fname\": \"Ramji  Singh\",\n    \"ADDRESS\": \"S/O Ramji Singh!Nauranga Tajnipur!!!!Nalanda!Bihar!803213\",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"8809863570\",\n    \"alt\": null,\n    \"id\": \"386897788933\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 6,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:27:45.033Z",
         "status": "sent",
-        "telegramMessageId": 271
+        "telegramMessageId": 281
       },
       {
-        "id": "msg-272",
-        "telegramMessageId": 272,
+        "id": "msg-282",
+        "telegramMessageId": 282,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:27:56.217Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786022876219",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):",
+        "timestamp": "2026-08-06T13:27:56.218Z",
+        "status": "sent",
+        "telegramMessageId": 283
+      },
+      {
+        "id": "msg-284",
+        "telegramMessageId": 284,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:28:05.223Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786022886197",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"profile\": {\n    \"bio\": \"जिंदगी एक बार मिलती है, इसलिए खुलकर जियो !\",\n    \"bio_links\": [\n      {\n        \"title\": \"facebook\",\n        \"url\": \"https://www.facebook.com/share/1DHUgX77Es/\"\n      }\n    ],\n    \"followers\": 506,\n    \"following\": 33,\n    \"full_name\": \"𝓡𝓲𝓽𝓲𝓴 𝓡𝓪𝓾𝓼𝓱𝓪𝓷 𝓚𝓾𝓶𝓪𝓻\",\n    \"is_verified\": false,\n    \"posts\": 30,\n    \"profile_pic_url\": \"https://media.instantusercontent.com/p/instagram/bfa036730025ebbab90750d7551ee1cbc8b1184071cb4f4bc428eeb075242cc6\",\n    \"profile_url\": \"https://instagram.com/ritik_raushan_kumar_9\",\n    \"username\": \"ritik_raushan_kumar_9\"\n  },\n  \"status\": \"taken\",\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"note\": \"If the check fails or an issue occurs, please try again after some time.\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:28:06.196Z",
+        "status": "sent",
+        "telegramMessageId": 285
+      },
+      {
+        "id": "msg-286",
+        "telegramMessageId": 286,
         "chatId": 8033702577,
         "sender": "user",
         "senderName": "RITIK",
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
         "text": "💲 UPI",
-        "timestamp": "2026-08-06T13:19:22.113Z",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:29:07.743Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022362115",
+        "id": "msg-1786022947746",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
         "text": "💲 <b>UPI ID Lookup Selected</b>\n\nPlease send the UPI ID to lookup (e.g., <code>name@paytm</code> or <code>9876543210@upi</code>):",
-        "timestamp": "2026-08-06T13:19:22.114Z",
+        "timestamp": "2026-08-06T13:29:07.745Z",
         "status": "sent",
-        "telegramMessageId": 273
+        "telegramMessageId": 287
       },
       {
-        "id": "msg-275",
-        "telegramMessageId": 275,
+        "id": "msg-288",
+        "telegramMessageId": 288,
         "chatId": 8033702577,
         "sender": "user",
         "senderName": "RITIK",
         "senderUsername": "RITIK90608",
         "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
-        "text": "6206786460@upi",
-        "timestamp": "2026-08-06T13:19:32.667Z",
+        "text": "9199377646@upi",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:29:20.531Z",
         "status": "delivered"
       },
       {
-        "id": "msg-1786022375284",
+        "id": "msg-1786022963213",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"status\": true,\n  \"data\": {\n    \"name\": \"PINTU KUMAR\",\n    \"bank\": \"UPI_BANK_IPPB\",\n    \"vpa\": \"9199377646@upi\",\n    \"account_type\": \"SAVINGS\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:29:23.212Z",
+        "status": "sent",
+        "telegramMessageId": 289
+      },
+      {
+        "id": "msg-291",
+        "telegramMessageId": 291,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:32:27.762Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786023147766",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+        "timestamp": "2026-08-06T13:32:27.765Z",
+        "status": "sent",
+        "telegramMessageId": 292
+      },
+      {
+        "id": "msg-294",
+        "telegramMessageId": 294,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "9199377646",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:32:34.339Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786023155364",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"0\": {\n    \"NAME\": \" Pintu Kumar \",\n    \"fname\": \" Shiyasaran Prasad \",\n    \"ADDRESS\": \" alinagar!Poari PO!Nalanda!alinagar Poari Harnaut!Nalanda!Nalanda!Bihar!803110 \",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9199377646\",\n    \"alt\": null,\n    \"id\": \"501883617026\",\n    \"email\": null\n  },\n  \"1\": {\n    \"NAME\": \" Pintu Kumar \",\n    \"fname\": \" Shiyasaran Prasad \",\n    \"ADDRESS\": \" alinagar!Poari PO!Nalanda!alinagar Poari Harnaut!Nalanda!Nalanda!Bihar!803110 \",\n    \"circle\": \"AIRTEL BHR&amp;JHR\",\n    \"MOBILE\": \"9199377646\",\n    \"alt\": null,\n    \"id\": \"501883617026\",\n    \"email\": null\n  },\n  \"key_details\": {\n    \"used_today\": 7,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:32:35.363Z",
+        "status": "sent",
+        "telegramMessageId": 295
+      },
+      {
+        "id": "msg-296",
+        "telegramMessageId": 296,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:32:56.852Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786023176854",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):",
+        "timestamp": "2026-08-06T13:32:56.853Z",
+        "status": "sent",
+        "telegramMessageId": 297
+      },
+      {
+        "id": "msg-298",
+        "telegramMessageId": 298,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:33:00.465Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786023180787",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"status\": \"error\",\n  \"message\": \"There is an issue processing your request. Please try again after some time.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:33:00.786Z",
+        "status": "sent",
+        "telegramMessageId": 300
+      },
+      {
+        "id": "msg-301",
+        "telegramMessageId": 301,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "Hello",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:33:23.046Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786023203353",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"status\": \"error\",\n  \"message\": \"There is an issue processing your request. Please try again after some time.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:33:23.352Z",
+        "status": "sent",
+        "telegramMessageId": 302
+      },
+      {
+        "id": "msg-304",
+        "telegramMessageId": 304,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:53:47.824Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786024427827",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+        "timestamp": "2026-08-06T13:53:47.826Z",
+        "status": "sent",
+        "telegramMessageId": 305
+      },
+      {
+        "id": "msg-306",
+        "telegramMessageId": 306,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "7050396570",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T13:54:06.970Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786024448383",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"error\": \"HTTP Error: 502\",\n  \"key_details\": {\n    \"used_today\": 8,\n    \"daily_limit\": 1000,\n    \"valid_days\": 30,\n    \"expires_on\": \"2026-09-04\"\n  },\n  \"developer\": \"@ritik_raushan_kumar_9\",\n  \"success\": true,\n  \"status_code\": 200,\n  \"http_status\": 200\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T13:54:08.382Z",
+        "status": "sent",
+        "telegramMessageId": 307
+      },
+      {
+        "id": "msg-308",
+        "telegramMessageId": 308,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "🏦 IFSC",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:09:19.195Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786025359198",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "🏦 <b>IFSC Code Lookup Selected</b>\n\nPlease send the 11-character IFSC Code to lookup (e.g., <code>PUNB00024544</code>):",
+        "timestamp": "2026-08-06T14:09:19.197Z",
+        "status": "sent",
+        "telegramMessageId": 309
+      },
+      {
+        "id": "msg-310",
+        "telegramMessageId": 310,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "QORPK8119H",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:09:25.847Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786025366199",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"detail\": [\n    {\n      \"type\": \"string_too_short\",\n      \"loc\": [\n        \"path\",\n        \"ifsc_code\"\n      ],\n      \"msg\": \"String should have at least 11 characters\",\n      \"input\": \"QORPK8119H\",\n      \"ctx\": {\n        \"min_length\": 11\n      }\n    }\n  ],\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T14:09:26.198Z",
+        "status": "sent",
+        "telegramMessageId": 311
+      },
+      {
+        "id": "msg-312",
+        "telegramMessageId": 312,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:09:40.140Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786025380143",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):",
+        "timestamp": "2026-08-06T14:09:40.142Z",
+        "status": "sent",
+        "telegramMessageId": 313
+      },
+      {
+        "id": "msg-314",
+        "telegramMessageId": 314,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "ritik_raushan_kumar_9",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:09:54.443Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786025394792",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "<pre><code>{\n  \"status\": \"error\",\n  \"message\": \"There is an issue processing your request. Please try again after some time.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
+        "timestamp": "2026-08-06T14:09:54.791Z",
+        "status": "sent",
+        "telegramMessageId": 315
+      },
+      {
+        "id": "msg-316",
+        "telegramMessageId": 316,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "💲 UPI",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:32:43.731Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786026763734",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "💲 <b>UPI ID Lookup Selected</b>\n\nPlease send the UPI ID to lookup (e.g., <code>name@paytm</code> or <code>9876543210@upi</code>):",
+        "timestamp": "2026-08-06T14:32:43.733Z",
+        "status": "sent",
+        "telegramMessageId": 317
+      },
+      {
+        "id": "msg-318",
+        "telegramMessageId": 318,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📸 INSTAGRAM",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:33:09.145Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786026789147",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📸 <b>INSTAGRAM Lookup Selected</b>\n\nPlease send the Instagram Username to lookup (e.g., <code>john_doe</code>):",
+        "timestamp": "2026-08-06T14:33:09.146Z",
+        "status": "sent",
+        "telegramMessageId": 319
+      },
+      {
+        "id": "msg-320",
+        "telegramMessageId": 320,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "💲 UPI",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:33:11.960Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786026791964",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "💲 <b>UPI ID Lookup Selected</b>\n\nPlease send the UPI ID to lookup (e.g., <code>name@paytm</code> or <code>9876543210@upi</code>):",
+        "timestamp": "2026-08-06T14:33:11.963Z",
+        "status": "sent",
+        "telegramMessageId": 321
+      },
+      {
+        "id": "msg-322",
+        "telegramMessageId": 322,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "44105018854@ifsc.sbin0003063",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:33:15.686Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786026798382",
         "chatId": 8033702577,
         "sender": "bot",
         "senderName": "OSINT(INFO)",
         "text": "<pre><code>{\n  \"status\": false,\n  \"message\": \"No Data Found. Cookie expired or Invalid UPI ID.\",\n  \"developer\": \"@ritik_raushan_kumar_9\"\n}</code></pre>\n\n🔥 <b>Powered By @OSINT40U_BOT OSINT</b>\n🧑‍💻 <b>Developer: @ritik_raushan_kumar_9</b>",
-        "timestamp": "2026-08-06T13:19:35.283Z",
+        "timestamp": "2026-08-06T14:33:18.381Z",
         "status": "sent",
-        "telegramMessageId": 276
+        "telegramMessageId": 323
+      },
+      {
+        "id": "msg-324",
+        "telegramMessageId": 324,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "[STICKER]",
+        "mediaType": "sticker",
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-06T14:34:23.963Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786026863966",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "🤖 Please select an option from the menu below (e.g. 📱 MOBILE, 🪪 AADHAAR, 💲 UPI, 🏦 IFSC, 📸 INSTAGRAM) or send a query to lookup!",
+        "timestamp": "2026-08-06T14:34:23.965Z",
+        "status": "sent",
+        "telegramMessageId": 325
+      },
+      {
+        "id": "msg-326",
+        "telegramMessageId": 326,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "🏦 IFSC",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-07T03:38:50.954Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786073930957",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "🏦 <b>IFSC Code Lookup Selected</b>\n\nPlease send the 11-character IFSC Code to lookup (e.g., <code>PUNB00024544</code>):",
+        "timestamp": "2026-08-07T03:38:50.956Z",
+        "status": "sent",
+        "telegramMessageId": 329
+      },
+      {
+        "id": "msg-327",
+        "telegramMessageId": 327,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-07T03:38:51.405Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786073931409",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+        "timestamp": "2026-08-07T03:38:51.408Z",
+        "status": "sent",
+        "telegramMessageId": 330
+      },
+      {
+        "id": "msg-328",
+        "telegramMessageId": 328,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-07T03:38:51.844Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786073931847",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+        "timestamp": "2026-08-07T03:38:51.846Z",
+        "status": "sent",
+        "telegramMessageId": 331
+      },
+      {
+        "id": "msg-332",
+        "telegramMessageId": 332,
+        "chatId": 8033702577,
+        "sender": "user",
+        "senderName": "RITIK",
+        "senderUsername": "RITIK90608",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=8033702577",
+        "text": "📱 MOBILE",
+        "mediaType": null,
+        "pollDetails": null,
+        "locationDetails": null,
+        "timestamp": "2026-08-07T04:00:57.418Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-1786075258019",
+        "chatId": 8033702577,
+        "sender": "bot",
+        "senderName": "OSINT(INFO)",
+        "text": "📱 <b>MOBILE Lookup Selected</b>\n\nPlease send the 10-digit Mobile Number to lookup (e.g., <code>9876543210</code>):",
+        "timestamp": "2026-08-07T04:00:58.018Z",
+        "status": "sent",
+        "telegramMessageId": 334
       }
     ],
     "8016146653": [
@@ -1502,106 +2060,516 @@
   "broadcasts": [],
   "logs": [
     {
-      "id": "5r8io7u",
-      "timestamp": "2026-08-06T13:19:35.835Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "thu456q",
-      "timestamp": "2026-08-06T13:19:23.010Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "a2g270i",
-      "timestamp": "2026-08-06T13:19:18.222Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "pgl38uc",
-      "timestamp": "2026-08-06T13:19:13.910Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "22kf0wi",
-      "timestamp": "2026-08-06T13:19:09.036Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "i6hr5wz",
-      "timestamp": "2026-08-06T13:18:49.893Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "o6m8mun",
-      "timestamp": "2026-08-06T13:18:04.579Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "grj6ht9",
-      "timestamp": "2026-08-06T13:17:56.631Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "zvvpatv",
-      "timestamp": "2026-08-06T13:14:40.899Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "xrf4xtb",
-      "timestamp": "2026-08-06T13:14:40.433Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "kpr711b",
-      "timestamp": "2026-08-06T13:14:39.980Z",
-      "type": "bot_event",
-      "message": "Auto-replied to personal message from RITIK (8033702577)"
-    },
-    {
-      "id": "zjujj2d",
-      "timestamp": "2026-08-06T13:14:39.210Z",
+      "id": "f75hd2s",
+      "timestamp": "2026-08-07T04:17:39.711Z",
       "type": "info",
       "message": "Started Telegram long polling loop..."
     },
     {
-      "id": "r3vbp0d",
-      "timestamp": "2026-08-06T13:14:39.208Z",
+      "id": "baobvx5",
+      "timestamp": "2026-08-07T04:17:39.707Z",
       "type": "info",
       "message": "Cleared active Telegram webhooks for long polling."
     },
     {
-      "id": "jxc3dyv",
-      "timestamp": "2026-08-06T13:14:38.482Z",
+      "id": "uxxgldg",
+      "timestamp": "2026-08-07T04:17:38.964Z",
       "type": "info",
       "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))"
     },
     {
-      "id": "dvtu17l",
-      "timestamp": "2026-08-06T13:14:33.366Z",
+      "id": "zua9mze",
+      "timestamp": "2026-08-07T04:15:50.398Z",
       "type": "info",
       "message": "Started Telegram long polling loop...",
       "details": null
     },
     {
-      "id": "l7yl6b2",
-      "timestamp": "2026-08-06T13:14:33.364Z",
+      "id": "50unk6i",
+      "timestamp": "2026-08-07T04:15:48.597Z",
       "type": "info",
       "message": "Cleared active Telegram webhooks for long polling.",
       "details": null
     },
     {
-      "id": "xbw6j4d",
-      "timestamp": "2026-08-06T13:14:32.652Z",
+      "id": "5rfssuq",
+      "timestamp": "2026-08-07T04:15:12.498Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "qqfh74x",
+      "timestamp": "2026-08-07T04:14:18.212Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "6dbckpp",
+      "timestamp": "2026-08-07T04:14:18.210Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "hgo5f62",
+      "timestamp": "2026-08-07T04:14:17.511Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "68xzjbs",
+      "timestamp": "2026-08-07T04:09:38.792Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "k8654jq",
+      "timestamp": "2026-08-07T04:09:38.790Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "0stgjox",
+      "timestamp": "2026-08-07T04:09:38.072Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "dt8fzoi",
+      "timestamp": "2026-08-07T04:09:25.307Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "748pg7x",
+      "timestamp": "2026-08-07T04:09:25.305Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "j4jxbme",
+      "timestamp": "2026-08-07T04:09:24.570Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "q11c7dy",
+      "timestamp": "2026-08-07T04:01:05.118Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "i8nlxj5",
+      "timestamp": "2026-08-07T03:49:37.717Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "pm6gxwr",
+      "timestamp": "2026-08-07T03:49:37.117Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "bls9yiw",
+      "timestamp": "2026-08-07T03:49:35.540Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "qbyw84x",
+      "timestamp": "2026-08-07T03:48:49.036Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "oqdme1d",
+      "timestamp": "2026-08-07T03:48:49.033Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "ubt2vdf",
+      "timestamp": "2026-08-07T03:48:48.267Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "pwin8af",
+      "timestamp": "2026-08-07T03:48:07.628Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "fgh9ru2",
+      "timestamp": "2026-08-07T03:48:05.527Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "e1w2udd",
+      "timestamp": "2026-08-07T03:46:54.128Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "y3asf2e",
+      "timestamp": "2026-08-07T03:45:58.370Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "fuy2bhq",
+      "timestamp": "2026-08-07T03:45:58.367Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "oszpcw4",
+      "timestamp": "2026-08-07T03:45:57.335Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "uti3nak",
+      "timestamp": "2026-08-07T03:45:33.652Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "8ac7jqo",
+      "timestamp": "2026-08-07T03:45:33.650Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "nhl76jg",
+      "timestamp": "2026-08-07T03:45:32.934Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "vykqymx",
+      "timestamp": "2026-08-07T03:38:52.299Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "mhes8c2",
+      "timestamp": "2026-08-07T03:38:51.840Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "tv3a0iy",
+      "timestamp": "2026-08-07T03:38:51.401Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "gqp2sqm",
+      "timestamp": "2026-08-07T03:38:50.714Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "hb7nanm",
+      "timestamp": "2026-08-07T03:38:50.713Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "2yf9y23",
+      "timestamp": "2026-08-07T03:38:49.947Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "1zuvc1h",
+      "timestamp": "2026-08-06T14:34:24.893Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "r5yhuo6",
+      "timestamp": "2026-08-06T14:33:18.854Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "p50fsgs",
+      "timestamp": "2026-08-06T14:33:12.391Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "rqvlgwf",
+      "timestamp": "2026-08-06T14:33:10.032Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ziz5gtv",
+      "timestamp": "2026-08-06T14:32:44.624Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "th67u0n",
+      "timestamp": "2026-08-06T14:09:55.271Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "x9mi6fc",
+      "timestamp": "2026-08-06T14:09:41.012Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "atvp3et",
+      "timestamp": "2026-08-06T14:09:26.695Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "92l2zpk",
+      "timestamp": "2026-08-06T14:09:20.130Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ytl3sb7",
+      "timestamp": "2026-08-06T13:54:08.861Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "q0dnfgc",
+      "timestamp": "2026-08-06T13:53:48.786Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "n33q7ju",
+      "timestamp": "2026-08-06T13:33:23.908Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "dlgrfk9",
+      "timestamp": "2026-08-06T13:33:01.303Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "1opgnp0",
+      "timestamp": "2026-08-06T13:32:57.775Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "qs4acbj",
+      "timestamp": "2026-08-06T13:32:35.816Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "6q4guc6",
+      "timestamp": "2026-08-06T13:32:28.664Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "vcrqn0u",
+      "timestamp": "2026-08-06T13:29:23.663Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "fa0922z",
+      "timestamp": "2026-08-06T13:29:08.666Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "ugw0mmp",
+      "timestamp": "2026-08-06T13:28:06.661Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "s5ououh",
+      "timestamp": "2026-08-06T13:27:57.129Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "b6rjfte",
+      "timestamp": "2026-08-06T13:27:45.971Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "a4cz20m",
+      "timestamp": "2026-08-06T13:27:34.650Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "i1x5k1f",
+      "timestamp": "2026-08-06T13:24:37.589Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "jluel9l",
+      "timestamp": "2026-08-06T13:24:37.587Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "piar7uh",
+      "timestamp": "2026-08-06T13:24:36.583Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "nrlgtpr",
+      "timestamp": "2026-08-06T13:19:32.612Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "excm6yt",
+      "timestamp": "2026-08-06T13:18:55.413Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "4uapw5r",
+      "timestamp": "2026-08-06T13:18:25.912Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "vslj8d0",
+      "timestamp": "2026-08-06T13:16:04.413Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "c4xcbyo",
+      "timestamp": "2026-08-06T13:16:03.712Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "12qfhbq",
+      "timestamp": "2026-08-06T13:15:30.712Z",
+      "type": "info",
+      "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
+      "details": null
+    },
+    {
+      "id": "t377roe",
+      "timestamp": "2026-08-06T13:15:13.599Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "2hy52tz",
+      "timestamp": "2026-08-06T13:14:55.700Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "w3fba2c",
+      "timestamp": "2026-08-06T13:14:41.999Z",
+      "type": "bot_event",
+      "message": "Auto-replied to personal message from RITIK (8033702577)",
+      "details": null
+    },
+    {
+      "id": "1nkocwu",
+      "timestamp": "2026-08-06T13:02:08.600Z",
+      "type": "info",
+      "message": "Started Telegram long polling loop...",
+      "details": null
+    },
+    {
+      "id": "4ocg5sp",
+      "timestamp": "2026-08-06T13:02:04.399Z",
+      "type": "info",
+      "message": "Cleared active Telegram webhooks for long polling.",
+      "details": null
+    },
+    {
+      "id": "a5v2pyk",
+      "timestamp": "2026-08-06T13:01:06.200Z",
       "type": "info",
       "message": "Authenticated Telegram Bot: @OSINT40U_BOT (OSINT(INFO))",
       "details": null
@@ -3065,5 +4033,62 @@
       ],
       "supportRichMessages": true
     }
+  ],
+  "lastUpdateId": 27743408,
+  "processedUpdateIds": [
+    27743383,
+    27743384,
+    27743385,
+    27743386,
+    27743387,
+    27743388,
+    27743389,
+    27743390,
+    27743391,
+    27743392,
+    27743393,
+    27743394,
+    27743395,
+    27743396,
+    27743397,
+    27743398,
+    27743399,
+    27743400,
+    27743401,
+    27743402,
+    27743403,
+    27743404,
+    27743405,
+    27743406,
+    27743407,
+    27743408
+  ],
+  "processedMessageKeys": [
+    "8033702577_277_",
+    "8033702577_279_",
+    "8033702577_282_",
+    "8033702577_284_",
+    "8033702577_286_",
+    "8033702577_288_",
+    "8033702577_291_",
+    "8033702577_294_",
+    "8033702577_296_",
+    "8033702577_298_",
+    "8033702577_301_",
+    "8033702577_304_",
+    "8033702577_306_",
+    "8033702577_308_",
+    "8033702577_310_",
+    "8033702577_312_",
+    "8033702577_314_",
+    "8033702577_316_",
+    "8033702577_318_",
+    "8033702577_320_",
+    "8033702577_322_",
+    "8033702577_324_",
+    "8033702577_326_",
+    "8033702577_327_",
+    "8033702577_328_",
+    "8033702577_332_"
   ]
 }
